@@ -5,7 +5,7 @@
 
 #define MAX_ECHO_TIME 1000000000000 //NO ES ESE VALOR (random)
 #define TIME_TRIGGER 10 //us
-
+#define uint32_t unsigned int
 void distance_sensor_trigger();
 uint32_t distance_sensor_listen_echo();
 uint32_t distance_cm(uint32_t time_echo);

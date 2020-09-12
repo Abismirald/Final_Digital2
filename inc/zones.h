@@ -7,10 +7,8 @@
 
 #ifndef ZONES_H_
 #define ZONES_H_
-
-#include "main.h"
-
-typedef enum{ZONE_1, ZONE_2, ZONE_3, ZONE_OUT} zones_t;
+#include "status.h"
+#include "zonest.h"
 
 status_t zone(zones_t ZONE);
 
