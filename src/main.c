@@ -113,7 +113,7 @@ int main(void) {
     if(status != OK_INIT){
     	//MODO MANTENIMIENTO
     }
-
+    LED_ALL_ON();
     while(1){
 
     	//empezar a medir distacia
@@ -141,8 +141,8 @@ int main(void) {
 
     	delay_us(DELAY_TRIGGER);
 
-    	LED_ALL_OFF(); //TESTEAR
-    	vibrator_OFF(); //Este es para que apague el vibrador entre uno y otro? dudoso ahre
+    	//LED_ALL_OFF(); //TESTEAR
+    	//vibrator_OFF(); //Este es para que apague el vibrador entre uno y otro? dudoso ahre
 
     }
     return 0;
