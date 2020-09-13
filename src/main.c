@@ -8,9 +8,9 @@
 ===============================================================================
 */
 
-#include "chip.h"
-
-#include <cr_section_macros.h>
+//#include "chip.h"
+//
+//#include <cr_section_macros.h>
 
 #include "main.h"
 
@@ -22,6 +22,11 @@
 #define	SCU_TRIGGER_PIN 1
 #define	SCU_ECHO_GROUP 6
 #define	SCU_ECHO_PIN 5
+#define DELAY_TRIGGER 5 //se puede variar
+
+#define Z1		80		//cm
+#define Z2		150		//cm
+#define Z3		250		//cm
 
 uint32_t time_echo=0;
 uint32_t distance_echo=600;
@@ -34,7 +39,7 @@ status_t PERIPHERAL_init(){
 	SCU_init();
 	GPIO_init();
 	TIMERS_init();
-	UART_init();
+	//UART_init();
 	NVIC_init();
 
 	return OK_ZONE;
@@ -73,10 +78,10 @@ void TIMERS_init(){
 	return;
 }
 
-void UART_init(){
-	Chip_UART_Init(LPC_USART0);
-	//Chip_UART_Send(LPC_USART_T *pUART, const void *data, int numBytes);
-}
+//void UART_init(){
+//	Chip_UART_Init(LPC_USART0);
+//	//Chip_UART_Send(LPC_USART_T *pUART, const void *data, int numBytes);
+//}
 
 void NVIC_init(){
 	Enable_PIN_INT(0);
@@ -108,7 +113,7 @@ int main(void) {
     if(status != OK_INIT){
     	//MODO MANTENIMIENTO
     }
-
+    LED_ALL_ON();
     while(1){
 
     	//empezar a medir distacia
@@ -117,15 +122,15 @@ int main(void) {
     	distance = distance_sensor_listen_echo(); //esto no deberia estar en una interrupcion?
 
     	//the distance determinates the zone of action
-    	if(0<distance<Z1){
+    	if(0<distance && distance<Z1){
     		zone(ZONE_1);
     		vibrator_ON(ZONE_1);
     	}
-    	if(Z1<distance<Z2){
+    	if(Z1<distance && distance<Z2){
     		zone(ZONE_2);
     		vibrator_ON(ZONE_2);
     	}
-    	if(Z2<distance<Z3){
+    	if(Z2<distance && distance<Z3){
     		zone(ZONE_3);
     		vibrator_ON(ZONE_3);
     	}
@@ -134,10 +139,10 @@ int main(void) {
     		vibrator_OFF();
     	}
 
-    	delay(DELAY_TRIGGER);
+    	delay_us(DELAY_TRIGGER);
 
-    	LED_ALL_OFF(); //TESTEAR
-    	vibrator_OFF(); //Este es para que apague el vibrador entre uno y otro? dudoso ahre
+    	//LED_ALL_OFF(); //TESTEAR
+    	//vibrator_OFF(); //Este es para que apague el vibrador entre uno y otro? dudoso ahre
 
     }
     return 0;

@@ -10,16 +10,16 @@
 void Clock_enable(timer_t timer_number){
 
 	switch(timer_number){
-	case(TIMER_0):
+	case(TIMER0):
 		(CCU1_TIMER0->CFG)|=1;
 		break;
-	case(TIMER_1):
+	case(TIMER1):
 		(CCU1_TIMER1->CFG)|=1;
 		break;
-	case(TIMER_2):
+	case(TIMER2):
 		(CCU1_TIMER2->CFG)|=1;
 		break;
-	case(TIMER_3):
+	case(TIMER3):
 		(CCU1_TIMER3->CFG)|=1;
 		break;
 	}
@@ -30,17 +30,17 @@ TIMER_T* TIMER_getPTR(timer_t timer_number){
 	TIMER_T* TIMERn;
 
 	switch(timer_number){
-		case(TIMER_0):
-			TIMERn=TIMER0;
+		case(TIMER0):
+			TIMERn=TIMER_0;
 			break;
-		case(TIMER_1):
-			TIMERn=TIMER1;
+		case(TIMER1):
+			TIMERn=TIMER_1;
 			break;
-		case(TIMER_2):
-			TIMERn=TIMER2;
+		case(TIMER2):
+			TIMERn=TIMER_2;
 			break;
-		case(TIMER_3):
-			TIMERn=TIMER3;
+		case(TIMER3):
+			TIMERn=TIMER_3;
 			break;
 		}
 	return TIMERn;

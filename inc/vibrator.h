@@ -1,8 +1,8 @@
 #ifndef VIBRATOR_H
 #define VIBRATOR_H
 
-#include "main.h"
-
+#include "zones.h"
+#include "zonest.h"
 void vibrator_ON(zones_t zone);
 void vibrator_OFF();
 

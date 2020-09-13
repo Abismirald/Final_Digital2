@@ -39,6 +39,6 @@ uint32_t distance_sensor_listen_echo(){
 }
 
 uint32_t distance_cm(uint32_t time_echo){
-  return round(time_echo/58);		//us to cm
+  return (unsigned int) (time_echo/58);		//us to cm
 }
 

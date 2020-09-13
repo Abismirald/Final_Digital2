@@ -171,3 +171,13 @@ void LED_ALL_OFF(){
 	LED_low(L0B);
 	return;
 }
+void LED_ALL_ON(){
+	LED_high(L1);
+	LED_high(L2);
+	LED_high(L3);
+	LED_high(L0R);
+	LED_high(L0G);
+	LED_high(L0B);
+	return;
+}
+

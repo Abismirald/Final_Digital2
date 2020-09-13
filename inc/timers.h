@@ -9,6 +9,7 @@
 #define TIMERS_H_
 
 #include "main.h"
+#define uint32_t unsigned int
 
 #define TIMER0_BASE				0x40084000
 #define TIMER_0					((TIMER_T *) TIMER0_BASE)
@@ -49,7 +50,7 @@ typedef struct{
 
 typedef struct{
 	uint32_t CFG;	/* configuration register */
-	unit32_t STAT;	/* status register */
+	uint32_t STAT;	/* status register */
 }CCU_T;
 
 

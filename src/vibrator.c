@@ -15,8 +15,10 @@ void vibrator_ON(zones_t zone){
 			break;
 
 		case ZONE_3:
-			Chip_DAC_UpdateValue(LPC_DAC, 1);
-			//Values_DAC(1);
+			//Chip_DAC_UpdateValue(LPC_DAC, 1);
+			Values_DAC(1);
+			break;
+		case ZONE_OUT:
 			break;
 		}
 	return;
