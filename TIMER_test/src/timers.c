@@ -72,7 +72,7 @@ void TIMER_disable(timer_t timer_number){
 uint32_t TIMER_ReadCount(timer_t timer_number){
 	TIMER_T* TIMERn;
 	TIMERn=TIMER_getPTR(timer_number);
-	return	(int) TIMERn->TC;
+	return	(int)TIMERn->TC;
 }
 
 void TIMER_reset(timer_t timer_number){
@@ -98,6 +98,9 @@ void TIMER_reset(timer_t timer_number){
 //set frequency on a timer.
 //The maths are: PPCLK * (PR+1) = P /* para mi aca es el +1 */
 //Where: PCLK = 1/PCLK_MAX_FREQ , P = 1/frequency, PR = value of PR register
+
+
+//MAX_freq (204MHz) * PR --> 1M
 
 //PR=(MAX_FREQ/frequency) -1
 void TIMER_SetFrequency(timer_t timer_number , int frequency){

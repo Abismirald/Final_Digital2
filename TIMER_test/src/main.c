@@ -89,15 +89,22 @@ void TIMERS_init(){
 int main(void) {
 
 	status_t status=OK_INIT;
-	unsigned int time=0;
+	int time=0;
     status = PERIPHERAL_init(); //GPIO, TIMERS, PWM/DAC, UART en alto nivel
     if(status != OK_INIT){
     	//MODO MANTENIMIENTO
     }
     TIMER_enable(TIMER0);
 
+    time=TIMER_ReadCount(TIMER0);
     while(1){
+
     	time=TIMER_ReadCount(TIMER0);
+    	if(time > 10000000){
+    		LED_ALL_ON();
+    		TIMER_reset(TIMER0);
+    		time=TIMER_ReadCount(TIMER0);
+       	}
     }
     return 0;
 }

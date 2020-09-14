@@ -29,7 +29,7 @@ all: TIMER_test.axf
 TIMER_test.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\sasha\Documents\MCUXpressoIDE_11.1.1_3241\workspace\Practica_Filtro_FIR.zip_expanded\lpc_chip_43xx\Debug" -Xlinker -Map="TIMER_test.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "Final_D2_LPCOpen_Debug.ld" -o "TIMER_test.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug" -Xlinker -Map="TIMER_test.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "Final_D2_LPCOpen_Debug.ld" -o "TIMER_test.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

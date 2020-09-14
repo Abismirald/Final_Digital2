@@ -30,15 +30,23 @@ uint32_t distance_sensor_listen_echo(){
 	//Waits echo rise edge
 
 		if(GPIO_FLAG==1){
+
 			start_echo=TIMER_ReadCount(TIMER0);
 
-			while(GPIO_FLAG != 0 || TIMER_ReadCount(TIMER0) < MAX_ECHO_TIME){
+			while(GPIO_FLAG != 0){
 				//Waits for GPIO interrupt falling edge
 				aux2++;
+
+				if(TIMER_ReadCount(TIMER0) > MAX_ECHO_TIME){
+					break;
+				}
+
 			}
+			time_echo=0;
 			time_echo=TIMER_ReadCount(TIMER0)-start_echo;
 			break;
 		}
+
 		aux1++;
 	}
 
