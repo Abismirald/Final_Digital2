@@ -14,7 +14,7 @@ void distance_sensor_trigger(){
 uint32_t distance_sensor_listen_echo(){
 	uint32_t start_echo=0;
 	uint32_t distance_echo=600;
-	uint32_t time_echo;
+	uint32_t time_echo=0;
 	int aux1=0;
 	int aux2=0;
 
