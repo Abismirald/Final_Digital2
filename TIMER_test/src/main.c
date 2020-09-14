@@ -8,9 +8,9 @@
 ===============================================================================
 */
 
-//#include "chip.h"
-//
-//#include <cr_section_macros.h>
+#include "chip.h"
+
+#include <cr_section_macros.h>
 
 #include "main.h"
 
@@ -38,14 +38,15 @@ status_t PERIPHERAL_init(){
 	GPIO_init();
 	TIMERS_init();
 	//UART_init();
-	NVIC_init();
+//	NVIC_init();
 
 	return OK_ZONE;
 }
 
 void DAC_init(){
 	Enable_DAC();
-	Values_DAC(0);
+	//Values_DAC(0);
+	//Chip_DAC_Init(LPC_DAC);
 }
 
 void SCU_init(){
@@ -54,7 +55,6 @@ void SCU_init(){
 	SCU_EnableBuffer(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN);
 	SCU_DisableGlitchFilter(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN); //checkear si hay que usarlo o no
 	SCU_enablePD_disablePU(SCU,SCU_ECHO_GROUP, SCU_ECHO_PIN);
-
 }
 
 void GPIO_init(){
@@ -76,77 +76,28 @@ void TIMERS_init(){
 
 	return;
 }
-
-//void UART_init(){
-//	Chip_UART_Init(LPC_USART0);
-//	//Chip_UART_Send(LPC_USART_T *pUART, const void *data, int numBytes);
+//void NVIC_init(){
+//	Enable_PIN_INT(0);
+//	Select_GPIO_interrupt(GPIO_ECHO_PORT, GPIO_ECHO_PIN, 0);
+//	Enable_NVIC(PIN_INT0_IRQn);
+//
+//	return;
 //}
 
-void NVIC_init(){
-	Distance_interrupt(0);
-	Select_GPIO_interrupt(GPIO_ECHO_PORT, GPIO_ECHO_PIN, 0);
-	Enable_NVIC(PIN_INT0_IRQn);
 
-	return;
-}
-
-//Esto interrumpe cuando el gpio de echo se pone en 1
-void GPIO0_IRQHandler(void){
-
-	//resetea el pin de la interrupcion
-	(PIN_INT->IST)|=(1<<0);
-
-	//if recieve an echo signal
-
-	GPIO_FLAG =! GPIO_FLAG;  //not
-
-	//por falling and rising edge
-	//___/---------\___ echo signal
-	//  not        not
-}
 
 int main(void) {
 
-    //SystemCoreClockUpdate(); //solo si usamos match
-
-    uint32_t distance=0; //esto generaria que esta pegado al sensor la logica tendria que ser infinito
-    status_t status=OK_INIT;
-
+	status_t status=OK_INIT;
+	unsigned int time=0;
     status = PERIPHERAL_init(); //GPIO, TIMERS, PWM/DAC, UART en alto nivel
     if(status != OK_INIT){
     	//MODO MANTENIMIENTO
     }
-    LED_ALL_ON();
+    TIMER_enable(TIMER0);
+
     while(1){
-
-    	//empezar a medir distacia
-    	distance_sensor_trigger();
-    	//delay(DELAY_SENSOR_TE); ??
-    	distance = distance_sensor_listen_echo(); //esto no deberia estar en una interrupcion?
-
-    	//the distance determinates the zone of action
-    	if(0<distance && distance<Z1){
-    		zone(ZONE_1);
-    		vibrator_ON(ZONE_1);
-    	}
-    	if(Z1<distance && distance<Z2){
-    		zone(ZONE_2);
-    		vibrator_ON(ZONE_2);
-    	}
-    	if(Z2<distance && distance<Z3){
-    		zone(ZONE_3);
-    		vibrator_ON(ZONE_3);
-    	}
-    	if(Z3<distance){
-    		zone(ZONE_OUT);
-    		vibrator_OFF();
-    	}
-
-    	delay_us(DELAY_TRIGGER);
-
-    	//LED_ALL_OFF(); //TESTEAR
-    	//vibrator_OFF(); //Este es para que apague el vibrador entre uno y otro? dudoso ahre
-
+    	time=TIMER_ReadCount(TIMER0);
     }
     return 0;
 }

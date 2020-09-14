@@ -1,0 +1,4 @@
+gpio_set.c:5:6:GPIO_SetPinDIR	16	static
+gpio_set.c:13:6:GPIO_SetPin	16	static
+gpio_set.c:22:9:GPIO_GetPinState	16	static
+gpio_set.c:29:6:GPIO_TogglePin	16	static

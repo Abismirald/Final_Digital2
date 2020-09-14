@@ -72,7 +72,8 @@ typedef enum {
 
 void Enable_NVIC(interrupt_t interrnum); //habilitar interrupciones en el core de ARM
 void SelectEdge_PIN_INT(int ISELnum);//selecciona sensibilidad por flanco (modifica un bit del 0 al 7)
-void Enable_PIN_INT(int SIENRnum);
+void Enable_RisingEdge(int SIENRnum);
+void Enable_FallingEdge(int SIENRnum);
 void Select_GPIO_interrupt(unsigned char port, unsigned char pin, unsigned char interrnum);
 
 #endif

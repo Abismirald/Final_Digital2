@@ -4,11 +4,6 @@
 
 extern bool GPIO_FLAG;
 
-void Distance_interrupt(int interrupt){
-	SelectEdge_PIN_INT(interrupt);
-	Enable_FallingEdge(interrupt);
-	Enable_RisingEdge(interrupt);
-}
 void distance_sensor_trigger(){
 	GPIO_SetPin(GPIO, GPIO_TRIGGER_PORT, GPIO_TRIGGER_PIN, HIGH);
 	delay_us(TIME_TRIGGER);

@@ -1,0 +1,4 @@
+scu_set.c:4:6:SCU_SetPin	16	static
+scu_set.c:10:6:SCU_EnableBuffer	16	static
+scu_set.c:17:6:SCU_DisableGlitchFilter	16	static
+scu_set.c:21:6:SCU_enablePD_disablePU	16	static

@@ -31,12 +31,19 @@ void SelectEdge_PIN_INT(int ISELnum){
 		//pues 0 es edge sensivility
 	}
 }
-void Enable_PIN_INT(int SIENRnum){
+void Enable_FallingEdge(int SIENFnum){
+	if(SIENFnum <=7){
+		(PIN_INT->SIENF)|= (0x01<<SIENFnum);
+	}
+}
+
+void Enable_RisingEdge(int SIENRnum){
 	if(SIENRnum <=7){
 		(PIN_INT->SIENR)|= (0x01<<SIENRnum); 
 	}
-	SelectEdge_PIN_INT(SIENRnum);
 }
+
+
 
 void Select_GPIO_interrupt(unsigned char port, unsigned char pin, unsigned char interrnum){
 	int desp=(interrnum & 3) << 3;
