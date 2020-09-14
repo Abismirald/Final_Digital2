@@ -1,0 +1,7 @@
+leds_setup.c:7:6:LED_cfg	24	static
+leds_setup.c:50:6:LED_high	24	static
+leds_setup.c:85:6:LED_low	24	static
+leds_setup.c:120:6:LED_toggle	24	static
+leds_setup.c:155:6:LED_ALL	8	static
+leds_setup.c:165:6:LED_ALL_OFF	8	static
+leds_setup.c:174:6:LED_ALL_ON	8	static

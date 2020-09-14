@@ -1,0 +1,3 @@
+distance_sensor.c:9:6:distance_sensor_trigger	8	static
+distance_sensor.c:16:10:distance_sensor_listen_echo	16	static
+distance_sensor.c:41:10:distance_cm	16	static
