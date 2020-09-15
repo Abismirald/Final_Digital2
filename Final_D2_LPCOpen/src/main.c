@@ -24,9 +24,9 @@
 #define	SCU_ECHO_PIN 5
 #define DELAY_TRIGGER 5 //se puede variar
 
-#define Z1		80		//cm
-#define Z2		150		//cm
-#define Z3		250		//cm
+#define Z1		5		//cm 80
+#define Z2		10		//cm 150
+#define Z3		20		//cm 250
 
 bool GPIO_FLAG=0;
 
