@@ -1,10 +1,3 @@
-/*
- * status.h
- *
- *  Created on: 8 sep. 2020
- *      Author: sasha
- */
-
 #ifndef STATUS_H_
 #define STATUS_H_
 

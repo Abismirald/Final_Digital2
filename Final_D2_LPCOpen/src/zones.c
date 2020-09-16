@@ -1,11 +1,3 @@
-/*
- * zones.c
- *
- *  Created on: 8 sep. 2020
- *      Author: sasha
- */
-
-
 #include "zones.h"
 #include "leds_setup.h"
 

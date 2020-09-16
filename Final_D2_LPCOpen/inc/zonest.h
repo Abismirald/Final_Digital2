@@ -1,10 +1,3 @@
-/*
- * zonest.h
- *
- *  Created on: 12 sep. 2020
- *      Author: sasha
- */
-
 #ifndef ZONEST_H_
 #define ZONEST_H_
 

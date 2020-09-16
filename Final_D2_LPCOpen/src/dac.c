@@ -48,8 +48,6 @@ void cfg_DMA(LLI_T *p_LLI0, LLI_T *p_LLI1,unsigned int* src_signal_0, unsigned i
 	Enable_DMA();
 	cfg_DAC();
 
-
-
 	//AHB bridge , puente entre el bus del micro y los perifericos, le digo por donde comunicar , en este caso, el DMA con los perifericos
 		unsigned int DMA_CONTROL_MASK = (SAMPLES_NUM		|	// transfer size
 										(0 << 12)			|	// source burst size (12-14) = 1

@@ -1,10 +1,3 @@
-/*
- * timers.c
- *
- *  Created on: 9 sep. 2020
- *      Author: sasha
- */
-
 #include "timers.h"
 
 void Clock_enable(timer_t timer_number){

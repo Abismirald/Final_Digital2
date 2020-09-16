@@ -1,7 +1,7 @@
 /*
 ===============================================================================
- Name        : Final_D2_LPCOpen.c
- Author      : Sasha y solo sasha
+ Name        : MuMa Project
+ Author      : Mancini - Muscio
  Version     :
  Copyright   : $(copyright)
  Description : main definition
@@ -14,24 +14,25 @@
 
 #include "main.h"
 
-#define GPIO_TRIGGER_PORT 3 //para el Trigger usamos GPIO0
+#define GPIO_TRIGGER_PORT 3 //TRIGGER => GPIO0
 #define GPIO_TRIGGER_PIN 0
-#define GPIO_ECHO_PORT 3	//para el echo usamos GPIO2
+#define GPIO_ECHO_PORT 3	//ECHO => GPIO2
 #define GPIO_ECHO_PIN 4
 #define	SCU_TRIGGER_GROUP 6
 #define	SCU_TRIGGER_PIN 1
 #define	SCU_ECHO_GROUP 6
 #define	SCU_ECHO_PIN 5
-#define DELAY_TRIGGER 5 //se puede variar
+#define DELAY_TRIGGER 7 //se puede variar
 
-#define Z1		5		//cm 80
-#define Z2		10		//cm 150
-#define Z3		20		//cm 250
+#define Z1		9		//cm 80
+#define Z2		19		//cm 150
+#define Z3		30		//cm 250
 
 bool GPIO_FLAG=0;
 
+/* Init of the peripherics (TIMERS, GPIO, UART, NVIC, DAC) */
 status_t PERIPHERAL_init(){
-	//en esta funcion se inician todos los perifericos (TIMERS, GPIO, UART)
+
 	LED_ALL();
 	DAC_init();
 	SCU_init();
@@ -52,7 +53,7 @@ void SCU_init(){
 	SCU_SetPin(SCU, SCU_TRIGGER_GROUP, SCU_TRIGGER_PIN, 0);
 	SCU_SetPin(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN, 0);
 	SCU_EnableBuffer(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN);
-	SCU_DisableGlitchFilter(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN); //checkear si hay que usarlo o no
+	//SCU_DisableGlitchFilter(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN);
 	SCU_enablePD_disablePU(SCU,SCU_ECHO_GROUP, SCU_ECHO_PIN);
 
 }
@@ -70,10 +71,6 @@ void TIMERS_init(){
 	TIMER_SetFrequency(TIMER0, US_FREQ); //set timer to us
 	TIMER_reset(TIMER0);
 
-	//	Chip_TIMER_Init(LPC_TIMER0);
-//	Chip_TIMER_SetMatch(LPC_TIMER0, MATCH(0), SystemCoreClock*0.00001);//Trigger 10us
-//	Chip_TIMER_SetMatch(LPC_TIMER1, MATCH(0), SystemCoreClock*0.0000005);//Sampleo 0.5us
-
 	return;
 }
 
@@ -90,41 +87,36 @@ void NVIC_init(){
 	return;
 }
 
-//Esto interrumpe cuando el gpio de echo se pone en 1
+//if an echo signal interrupts
 void GPIO0_IRQHandler(void){
 
-	//resetea el pin de la interrupcion
+	/* Clear interruption pin */
 	(PIN_INT->IST)|=(1<<0);
 
-	//if recieve an echo signal
-
-	GPIO_FLAG =! GPIO_FLAG;  //not
-
-	//por falling and rising edge
-	//___/---------\___ echo signal
-	//  not        not
+	GPIO_FLAG =! GPIO_FLAG; //not
 }
 
 int main(void) {
 
-    //SystemCoreClockUpdate(); //solo si usamos match
-
     uint32_t distance=0; //esto generaria que esta pegado al sensor la logica tendria que ser infinito
     status_t status=OK_INIT;
 
-    status = PERIPHERAL_init(); //GPIO, TIMERS, PWM/DAC, UART en alto nivel
+    status = PERIPHERAL_init(); //GPIO, TIMERS, UART en alto nivel
+
     if(status != OK_INIT){
     	//MODO MANTENIMIENTO
     }
-    LED_ALL_ON();
+
     while(1){
 
-    	//empezar a medir distacia
-    	distance_sensor_trigger();
-    	//delay(DELAY_SENSOR_TE); ??
-    	distance = distance_sensor_listen_echo(); //esto no deberia estar en una interrupcion?
+    	/* start sensing distance */
 
-    	//the distance determinates the zone of action
+    	distance_sensor_trigger();
+
+    	distance = distance_sensor_listen_echo();
+
+    	/* The distance determinates the zone of action */
+
     	if(0<distance && distance<Z1){
     		zone(ZONE_1);
     		vibrator_ON(ZONE_1);
@@ -142,10 +134,8 @@ int main(void) {
     		vibrator_OFF();
     	}
 
+    	/* delay between sensing */
     	delay_us(DELAY_TRIGGER);
-
-    	//LED_ALL_OFF(); //TESTEAR
-    	//vibrator_OFF(); //Este es para que apague el vibrador entre uno y otro? dudoso ahre
 
     }
     return 0;

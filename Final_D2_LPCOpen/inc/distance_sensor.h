@@ -3,7 +3,7 @@
 
 #include "main.h"
 
-#define MAX_ECHO_TIME 500000 //0.5 SEGUNDO
+#define MAX_ECHO_TIME 500000 //0.5 SEGUNDOS
 #define TIME_TRIGGER 10 //us
 #define uint32_t unsigned int
 void distance_sensor_trigger();
