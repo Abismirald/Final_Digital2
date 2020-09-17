@@ -8,10 +8,6 @@
 ===============================================================================
 */
 
-//#include "chip.h"
-//
-//#include <cr_section_macros.h>
-
 #include "main.h"
 
 #define GPIO_TRIGGER_PORT 3 //TRIGGER => GPIO0
@@ -22,15 +18,15 @@
 #define	SCU_TRIGGER_PIN 1
 #define	SCU_ECHO_GROUP 6
 #define	SCU_ECHO_PIN 5
-#define DELAY_TRIGGER 7 //se puede variar
+#define DELAY_TRIGGER 7 //delay between samples
 
-#define Z1		9		//cm 80
-#define Z2		19		//cm 150
-#define Z3		30		//cm 250
+#define Z1		80		//cm 80 9
+#define Z2		150		//cm 150 19
+#define Z3		250		//cm 250 30
 
 bool GPIO_FLAG=0;
 
-/* Init of the peripherics (TIMERS, GPIO, UART, NVIC, DAC) */
+/* Init of the peripherics (TIMERS, GPIO, NVIC, DAC) */
 status_t PERIPHERAL_init(){
 
 	LED_ALL();
@@ -38,7 +34,6 @@ status_t PERIPHERAL_init(){
 	SCU_init();
 	GPIO_init();
 	TIMERS_init();
-	//UART_init();
 	NVIC_init();
 
 	return OK_ZONE;
@@ -53,7 +48,6 @@ void SCU_init(){
 	SCU_SetPin(SCU, SCU_TRIGGER_GROUP, SCU_TRIGGER_PIN, 0);
 	SCU_SetPin(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN, 0);
 	SCU_EnableBuffer(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN);
-	//SCU_DisableGlitchFilter(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN);
 	SCU_enablePD_disablePU(SCU,SCU_ECHO_GROUP, SCU_ECHO_PIN);
 
 }
@@ -73,11 +67,6 @@ void TIMERS_init(){
 
 	return;
 }
-
-//void UART_init(){
-//	Chip_UART_Init(LPC_USART0);
-//	//Chip_UART_Send(LPC_USART_T *pUART, const void *data, int numBytes);
-//}
 
 void NVIC_init(){
 	Distance_interrupt(0);
@@ -105,7 +94,7 @@ int main(void) {
     //Inicialization
     status = PERIPHERAL_init(); //GPIO, TIMERS, UART en alto nivel
 
-    if(status != OK_INIT){
+    if(status != OK_ZONE){
     	//SAFE MODE
     	while(1){
     		LED_toggle(L1);
