@@ -101,22 +101,27 @@ int main(void) {
     uint32_t distance=0; //esto generaria que esta pegado al sensor la logica tendria que ser infinito
     status_t status=OK_INIT;
 
+
+    //Inicialization
     status = PERIPHERAL_init(); //GPIO, TIMERS, UART en alto nivel
 
     if(status != OK_INIT){
-    	//MODO MANTENIMIENTO
+    	//SAFE MODE
+    	while(1){
+    		LED_toggle(L1);
+    		delay_us(500000);
+    	}
     }
 
+    //Loop principal
     while(1){
 
-    	/* start sensing distance */
-
+    	// ULTRASONIC SENSOR --> get actual distance
     	distance_sensor_trigger();
-
     	distance = distance_sensor_listen_echo();
 
+    	//ZONES OF ACTION
     	/* The distance determinates the zone of action */
-
     	if(0<distance && distance<Z1){
     		zone(ZONE_1);
     		vibrator_ON(ZONE_1);

@@ -18,10 +18,8 @@ void distance_sensor_trigger(){
 
 uint32_t distance_sensor_listen_echo(){
 	uint32_t start_echo=0;
-	uint32_t distance_echo=600;
+	uint32_t distance_echo=6000;
 	uint32_t time_echo=0;
-	int aux1=0;
-	int aux2=0;
 
 	TIMER_reset(TIMER0);
 	TIMER_enable(TIMER0);
@@ -35,7 +33,6 @@ uint32_t distance_sensor_listen_echo(){
 
 			while(GPIO_FLAG != 0){
 				//Waits for GPIO interrupt falling edge
-				aux2++;
 
 				if(TIMER_ReadCount(TIMER0) > MAX_ECHO_TIME){
 					break;
@@ -44,13 +41,11 @@ uint32_t distance_sensor_listen_echo(){
 			}
 			time_echo=0;
 			time_echo=TIMER_ReadCount(TIMER0)-start_echo;
+			distance_echo = distance_cm(time_echo);
 			break;
 		}
 
-		aux1++;
 	}
-
-	distance_echo = distance_cm(time_echo);
 
 	return distance_echo;
 }
