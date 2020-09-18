@@ -1,0 +1,2 @@
+vibrator.c:4:6:vibrator_ON	16	static
+vibrator.c:26:6:vibrator_OFF	8	static

@@ -1,0 +1,6 @@
+dac.c:15:6:Enable_DAC	4	static
+dac.c:22:6:Enable_DMA	4	static
+dac.c:28:6:Values_DAC	24	static
+dac.c:39:6:cfg_DAC	16	static
+dac.c:47:6:cfg_DMA	40	static
+dac.c:98:6:signal_fill	56	dynamic
