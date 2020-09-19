@@ -100,14 +100,15 @@ void TIMER_SetFrequency(timer_t timer_number , int frequency){
 	(TIMERn->PR) = ( (int) MAX_FREQ/frequency - 1 );
 }
 
-//seria clave que los tiempos esten en microsegundos
-void delay_us(uint32_t time){ //declararlo asi o castear dentro del while
-	TIMER_reset(TIMER0);
-	TIMER_enable(TIMER0);
-	while(TIMER_ReadCount(TIMER0) != time){
-		 //__asm volatile ("nop"); PREGUNTAR A NICO SI ESTO ESTA BIEN O NO
+void delay_us(timer_t timer_number, uint32_t time){
+	TIMER_T* TIMERn;
+	TIMERn=TIMER_getPTR(timer_number);
+
+	TIMER_reset(timer_number);
+	TIMER_enable(timer_number);
+	while(TIMER_ReadCount(timer_number) != time){
 	}
-	TIMER_disable(TIMER0);
+	TIMER_disable(timer_number);
 	return;
 }
 

@@ -15,15 +15,20 @@
 #include "timers.h"
 #include "vibrator.h"
 #include "dac.h"
+#include "PWM.h"
 
 #define GPIO_TRIGGER_PORT 3 //para el Trigger usamos GPIO0
 #define GPIO_TRIGGER_PIN 0
 #define GPIO_ECHO_PORT 3	//para el echo usamos GPIO2
 #define GPIO_ECHO_PIN 4
+#define GPIO_PWM_PORT	3	//para el PWM usamos GPIO1
+#define GPIO_PWM_PIN	3
 #define	SCU_TRIGGER_GROUP 6
 #define	SCU_TRIGGER_PIN 1
 #define	SCU_ECHO_GROUP 6
 #define	SCU_ECHO_PIN 5
+#define SCU_PWM_GROUP	6
+#define SCU_PWM_PIN		4
 
 #define uint32_t unsigned int
 

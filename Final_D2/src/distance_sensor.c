@@ -11,7 +11,7 @@ void Distance_interrupt(int interrupt){
 }
 void distance_sensor_trigger(){
 	GPIO_SetPin(GPIO, GPIO_TRIGGER_PORT, GPIO_TRIGGER_PIN, HIGH);
-	delay_us(TIME_TRIGGER);
+	delay_us(TIMER0, TIME_TRIGGER);
 	GPIO_SetPin(GPIO, GPIO_TRIGGER_PORT, GPIO_TRIGGER_PIN, LOW);
 	return;
 }

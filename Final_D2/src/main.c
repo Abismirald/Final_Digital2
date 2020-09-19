@@ -14,15 +14,19 @@
 #define GPIO_TRIGGER_PIN 0
 #define GPIO_ECHO_PORT 3	//ECHO => GPIO2
 #define GPIO_ECHO_PIN 4
+#define GPIO_PWM_PORT	3	//para el PWM usamos GPIO1
+#define GPIO_PWM_PIN	3
 #define	SCU_TRIGGER_GROUP 6
 #define	SCU_TRIGGER_PIN 1
 #define	SCU_ECHO_GROUP 6
 #define	SCU_ECHO_PIN 5
+#define SCU_PWM_GROUP	6
+#define SCU_PWM_PIN		4
 #define DELAY_TRIGGER 7 //delay between samples
 
-#define Z1		80		//cm 80 9
-#define Z2		150		//cm 150 19
-#define Z3		250		//cm 250 30
+#define Z1		80
+#define Z2		150
+#define Z3		250
 
 bool GPIO_FLAG=0;
 
@@ -47,6 +51,7 @@ void DAC_init(){
 void SCU_init(){
 	SCU_SetPin(SCU, SCU_TRIGGER_GROUP, SCU_TRIGGER_PIN, 0);
 	SCU_SetPin(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN, 0);
+	SCU_SetPin(SCU, SCU_PWM_GROUP, SCU_PWM_PIN, 0);
 	SCU_EnableBuffer(SCU, SCU_ECHO_GROUP, SCU_ECHO_PIN);
 	SCU_enablePD_disablePU(SCU,SCU_ECHO_GROUP, SCU_ECHO_PIN);
 
@@ -55,6 +60,7 @@ void SCU_init(){
 void GPIO_init(){
 	GPIO_SetPinDIR(GPIO, GPIO_TRIGGER_PORT, GPIO_TRIGGER_PIN, OUTPUT);
 	GPIO_SetPinDIR(GPIO, GPIO_ECHO_PORT, GPIO_ECHO_PIN, INPUT);
+	GPIO_SetPinDIR(GPIO, GPIO_PWM_PORT, GPIO_PWM_PIN, OUTPUT);
 	GPIO_SetPin(GPIO, GPIO_TRIGGER_PORT, GPIO_TRIGGER_PIN, LOW);
 	return;
 }
@@ -62,8 +68,11 @@ void GPIO_init(){
 void TIMERS_init(){
 
 	TIMER_init(TIMER0);
+	TIMER_init(TIMER1);
 	TIMER_SetFrequency(TIMER0, US_FREQ); //set timer to us
+	TIMER_SetFrequency(TIMER1, US_FREQ); //set timer to us
 	TIMER_reset(TIMER0);
+	TIMER_reset(TIMER1);
 
 	return;
 }
@@ -98,7 +107,7 @@ int main(void) {
     	//SAFE MODE
     	while(1){
     		LED_toggle(L1);
-    		delay_us(500000);
+    		delay_us(TIMER0, 500000);
     	}
     }
 
@@ -129,7 +138,7 @@ int main(void) {
     	}
 
     	/* delay between sensing */
-    	delay_us(DELAY_TRIGGER);
+    	delay_us(TIMER0, DELAY_TRIGGER);
 
     }
     return 0;
