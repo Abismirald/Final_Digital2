@@ -54,7 +54,7 @@ typedef struct{
 }CCU_T;
 
 
-void delay_us(unsigned int time);
+void delay_us(float time);
 TIMER_T* TIMER_getPTR(timer_t timer_number);
 void Clock_enable(timer_t timer_number);
 void TIMER_init(timer_t timer_number);

@@ -111,7 +111,7 @@ void TIMER_SetFrequency(timer_t timer_number , int frequency){
 }
 
 //seria clave que los tiempos esten en microsegundos
-void delay_us(uint32_t time){ //declararlo asi o castear dentro del while
+void delay_us(float time){ //declararlo asi o castear dentro del while
 	TIMER_reset(TIMER0);
 	TIMER_enable(TIMER0);
 	while(TIMER_ReadCount(TIMER0) != time){

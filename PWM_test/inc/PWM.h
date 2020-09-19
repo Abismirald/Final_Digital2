@@ -11,8 +11,9 @@
 #include "gpio_set.h"
 #include "struct_base.h"
 #include "timers.h"
+#include "main.h"
 
-void PWM_delay_pulse(unsigned int T /*us*/);
+void PWM_pulse(unsigned int T /*us*/,unsigned int voltage);
 void PWM_time(unsigned int freq, unsigned int total_time);
 void PWM_variable(unsigned int freq /*Hz*/,
 		unsigned int percentaje_up,  unsigned int percentaje_down);
