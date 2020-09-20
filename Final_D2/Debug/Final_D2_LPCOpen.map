@@ -1,46 +1,37 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                              ./src/uart_18xx_43xx.o (Chip_Clock_EnableOpts)
 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
                               ./src/sysinit.o (fpuInit)
-C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
-                              ./src/uart_18xx_43xx.o (RingBuffer_Insert)
 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
                               ./src/sysinit.o (Chip_SystemInit)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
-                              C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o) (memcpy)
+C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o) (Chip_Clock_EnableCrystal)
 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
                               C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o) (memset)
 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
                               ./src/cr_startup_lpc43xx.o (__main)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
-                              ./src/dac.o (sin)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o) (_sincos)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
-                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o) (errno)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
-                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o) (fabs)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
-                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o) (__huge_val)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
-                              ./src/uart_18xx_43xx.o (__aeabi_uldivmod)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
-                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                              ./src/dac.o (__aeabi_dmul)
-c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-                              ./src/dac.o (__aeabi_f2d)
 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
-                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o) (__aeabi_lowlevel_memset)
 
 Discarded input sections
 
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .group         0x00000000        0xc ./src/PWM.o
+ .text          0x00000000        0x0 ./src/PWM.o
+ .data          0x00000000        0x0 ./src/PWM.o
+ .bss           0x00000000        0x0 ./src/PWM.o
  .group         0x00000000        0xc ./src/cr_startup_lpc43xx.o
  .text          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
  .data          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
  .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00000000      0xa78 ./src/cr_startup_lpc43xx.o
  .group         0x00000000        0xc ./src/crp.o
  .group         0x00000000        0xc ./src/crp.o
  .text          0x00000000        0x0 ./src/crp.o
@@ -55,11 +46,10 @@ Discarded input sections
  .debug_macro   0x00000000      0xa78 ./src/crp.o
  .debug_macro   0x00000000       0x34 ./src/crp.o
  .debug_line    0x00000000       0x75 ./src/crp.o
- .debug_str     0x00000000     0x2e4a ./src/crp.o
+ .debug_str     0x00000000     0x2e42 ./src/crp.o
  .comment       0x00000000       0x7f ./src/crp.o
  .ARM.attributes
                 0x00000000       0x37 ./src/crp.o
- .group         0x00000000        0xc ./src/dac.o
  .group         0x00000000        0xc ./src/dac.o
  .group         0x00000000        0xc ./src/dac.o
  .group         0x00000000        0xc ./src/dac.o
@@ -72,11 +62,11 @@ Discarded input sections
                 0x00000000        0x4 ./src/dac.o
  .text.Enable_DMA
                 0x00000000       0x20 ./src/dac.o
- .text.cfg_DAC  0x00000000       0x24 ./src/dac.o
- .text.cfg_DMA  0x00000000       0x90 ./src/dac.o
- .text.signal_fill
-                0x00000000      0x2c8 ./src/dac.o
  .debug_macro   0x00000000      0xa78 ./src/dac.o
+ .debug_macro   0x00000000       0x46 ./src/dac.o
+ .debug_macro   0x00000000       0x22 ./src/dac.o
+ .debug_macro   0x00000000       0x10 ./src/dac.o
+ .debug_macro   0x00000000       0xc4 ./src/dac.o
  .group         0x00000000        0xc ./src/distance_sensor.o
  .group         0x00000000        0xc ./src/distance_sensor.o
  .group         0x00000000        0xc ./src/distance_sensor.o
@@ -94,7 +84,9 @@ Discarded input sections
  .debug_macro   0x00000000       0xc4 ./src/distance_sensor.o
  .debug_macro   0x00000000       0x22 ./src/distance_sensor.o
  .debug_macro   0x00000000       0x46 ./src/distance_sensor.o
- .debug_macro   0x00000000       0x1c ./src/distance_sensor.o
+ .debug_macro   0x00000000       0x10 ./src/distance_sensor.o
+ .debug_macro   0x00000000       0x52 ./src/distance_sensor.o
+ .debug_macro   0x00000000       0x16 ./src/distance_sensor.o
  .group         0x00000000        0xc ./src/gpio_set.o
  .group         0x00000000        0xc ./src/gpio_set.o
  .text          0x00000000        0x0 ./src/gpio_set.o
@@ -102,8 +94,6 @@ Discarded input sections
  .bss           0x00000000        0x0 ./src/gpio_set.o
  .text.GPIO_GetPinState
                 0x00000000       0x2a ./src/gpio_set.o
- .text.GPIO_TogglePin
-                0x00000000       0x40 ./src/gpio_set.o
  .debug_macro   0x00000000      0xa78 ./src/gpio_set.o
  .debug_macro   0x00000000       0x46 ./src/gpio_set.o
  .group         0x00000000        0xc ./src/interruptions.o
@@ -119,9 +109,9 @@ Discarded input sections
  .data          0x00000000        0x0 ./src/leds_setup.o
  .bss           0x00000000        0x0 ./src/leds_setup.o
  .bss.toggle    0x00000000        0x4 ./src/leds_setup.o
- .text.LED_toggle
-                0x00000000       0xa0 ./src/leds_setup.o
  .text.LED_ALL_OFF
+                0x00000000       0x2c ./src/leds_setup.o
+ .text.LED_ALL_ON
                 0x00000000       0x2c ./src/leds_setup.o
  .debug_macro   0x00000000      0xa78 ./src/leds_setup.o
  .debug_macro   0x00000000       0x46 ./src/leds_setup.o
@@ -144,13 +134,15 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./src/main.o
  .debug_macro   0x00000000       0x46 ./src/main.o
  .debug_macro   0x00000000       0x7c ./src/main.o
- .debug_macro   0x00000000       0x1c ./src/main.o
- .debug_macro   0x00000000       0x3a ./src/main.o
+ .debug_macro   0x00000000       0x10 ./src/main.o
+ .debug_macro   0x00000000       0x52 ./src/main.o
  .group         0x00000000        0xc ./src/scu_set.o
  .group         0x00000000        0xc ./src/scu_set.o
  .text          0x00000000        0x0 ./src/scu_set.o
  .data          0x00000000        0x0 ./src/scu_set.o
  .bss           0x00000000        0x0 ./src/scu_set.o
+ .text.SCU_DisableGlitchFilter
+                0x00000000       0x40 ./src/scu_set.o
  .debug_macro   0x00000000      0xa78 ./src/scu_set.o
  .debug_macro   0x00000000       0x46 ./src/scu_set.o
  .group         0x00000000        0xc ./src/sysinit.o
@@ -226,8 +218,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x40 ./src/tec_setup.o
  .debug_macro   0x00000000      0xa78 ./src/tec_setup.o
  .debug_macro   0x00000000       0x46 ./src/tec_setup.o
- .debug_line    0x00000000      0x133 ./src/tec_setup.o
- .debug_str     0x00000000     0x2fb5 ./src/tec_setup.o
+ .debug_line    0x00000000      0x12b ./src/tec_setup.o
+ .debug_str     0x00000000     0x2fad ./src/tec_setup.o
  .comment       0x00000000       0x7f ./src/tec_setup.o
  .debug_frame   0x00000000       0x74 ./src/tec_setup.o
  .ARM.attributes
@@ -250,193 +242,9 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./src/timers.o
  .debug_macro   0x00000000       0x16 ./src/timers.o
  .debug_macro   0x00000000       0x46 ./src/timers.o
- .debug_macro   0x00000000       0x1c ./src/timers.o
- .debug_macro   0x00000000       0x3a ./src/timers.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .group         0x00000000        0xc ./src/uart_18xx_43xx.o
- .text          0x00000000        0x0 ./src/uart_18xx_43xx.o
- .data          0x00000000        0x0 ./src/uart_18xx_43xx.o
- .bss           0x00000000        0x0 ./src/uart_18xx_43xx.o
- .text.RingBuffer_IsEmpty
-                0x00000000       0x2a ./src/uart_18xx_43xx.o
- .text.Chip_UART_TXDisable
-                0x00000000       0x1a ./src/uart_18xx_43xx.o
- .text.Chip_UART_SendByte
-                0x00000000       0x1e ./src/uart_18xx_43xx.o
- .text.Chip_UART_ReadByte
-                0x00000000       0x1a ./src/uart_18xx_43xx.o
- .text.Chip_UART_IntEnable
-                0x00000000       0x22 ./src/uart_18xx_43xx.o
- .text.Chip_UART_IntDisable
-                0x00000000       0x24 ./src/uart_18xx_43xx.o
- .text.Chip_UART_ReadIntIDReg
-                0x00000000       0x18 ./src/uart_18xx_43xx.o
- .text.Chip_UART_SetupFIFOS
-                0x00000000       0x1c ./src/uart_18xx_43xx.o
- .text.Chip_UART_ConfigData
-                0x00000000       0x1c ./src/uart_18xx_43xx.o
- .text.Chip_UART_EnableDivisorAccess
-                0x00000000       0x20 ./src/uart_18xx_43xx.o
- .text.Chip_UART_DisableDivisorAccess
-                0x00000000       0x20 ./src/uart_18xx_43xx.o
- .text.Chip_UART_SetDivisorLatches
-                0x00000000       0x28 ./src/uart_18xx_43xx.o
- .text.Chip_UART_ReadLineStatus
-                0x00000000       0x18 ./src/uart_18xx_43xx.o
- .text.Chip_UART_SetAutoBaudReg
-                0x00000000       0x22 ./src/uart_18xx_43xx.o
- .bss.ABsyncSts
-                0x00000000        0x1 ./src/uart_18xx_43xx.o
- .rodata.UART_PClock
-                0x00000000        0x8 ./src/uart_18xx_43xx.o
- .rodata.UART_BClock
-                0x00000000        0x8 ./src/uart_18xx_43xx.o
- .text.Chip_UART_GetIndex
-                0x00000000       0x60 ./src/uart_18xx_43xx.o
- .text.Chip_UART_ABIntHandler
-                0x00000000       0x6c ./src/uart_18xx_43xx.o
- .text.Chip_UART_Init
-                0x00000000       0x84 ./src/uart_18xx_43xx.o
- .text.Chip_UART_DeInit
-                0x00000000       0x30 ./src/uart_18xx_43xx.o
- .text.Chip_UART_Send
-                0x00000000       0x50 ./src/uart_18xx_43xx.o
- .text.Chip_UART_CheckBusy
-                0x00000000       0x26 ./src/uart_18xx_43xx.o
- .text.Chip_UART_SendBlocking
-                0x00000000       0x4a ./src/uart_18xx_43xx.o
- .text.Chip_UART_Read
-                0x00000000       0x52 ./src/uart_18xx_43xx.o
- .text.Chip_UART_ReadBlocking
-                0x00000000       0x4c ./src/uart_18xx_43xx.o
- .text.Chip_UART_SetBaud
-                0x00000000       0x6c ./src/uart_18xx_43xx.o
- .text.Chip_UART_RXIntHandlerRB
-                0x00000000       0x3a ./src/uart_18xx_43xx.o
- .text.Chip_UART_TXIntHandlerRB
-                0x00000000       0x54 ./src/uart_18xx_43xx.o
- .text.Chip_UART_SendRB
-                0x00000000       0x60 ./src/uart_18xx_43xx.o
- .text.Chip_UART_ReadRB
-                0x00000000       0x22 ./src/uart_18xx_43xx.o
- .text.Chip_UART_IRQRBHandler
-                0x00000000       0x4a ./src/uart_18xx_43xx.o
- .text.Chip_UART_SetBaudFDR
-                0x00000000      0x16c ./src/uart_18xx_43xx.o
- .text.Chip_UART_GetABEOStatus
-                0x00000000       0x20 ./src/uart_18xx_43xx.o
- .text.Chip_UART_ABCmd
-                0x00000000       0x82 ./src/uart_18xx_43xx.o
- .debug_info    0x00000000     0x1101 ./src/uart_18xx_43xx.o
- .debug_abbrev  0x00000000      0x2f9 ./src/uart_18xx_43xx.o
- .debug_aranges
-                0x00000000      0x118 ./src/uart_18xx_43xx.o
- .debug_ranges  0x00000000      0x120 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x2da ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0xa78 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x10 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x10 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x12d ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x5b2 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x22 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x7b ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x28 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x3b ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x2d ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x42 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0xd39 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x2bc ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x112 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x11 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x2a ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x16 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x2e6 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x82 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x13d ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x198 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x34 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x58 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x236 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x572 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x16 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x18a ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x88 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x1b9 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x1da ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x40 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x1c ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x2e ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x2e ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x22 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x201 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0xe0 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x34c ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0xdc ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0xc4 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x94 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0xb8 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x4c ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x16 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000      0x328 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x3a ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0xd0 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x18 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x22 ./src/uart_18xx_43xx.o
- .debug_macro   0x00000000       0x40 ./src/uart_18xx_43xx.o
- .debug_line    0x00000000      0x92b ./src/uart_18xx_43xx.o
- .debug_str     0x00000000    0x166ec ./src/uart_18xx_43xx.o
- .comment       0x00000000       0x7f ./src/uart_18xx_43xx.o
- .debug_frame   0x00000000      0x4e0 ./src/uart_18xx_43xx.o
- .ARM.attributes
-                0x00000000       0x37 ./src/uart_18xx_43xx.o
+ .debug_macro   0x00000000       0x10 ./src/timers.o
+ .debug_macro   0x00000000       0x52 ./src/timers.o
+ .debug_macro   0x00000000       0x76 ./src/timers.o
  .group         0x00000000        0xc ./src/vibrator.o
  .group         0x00000000        0xc ./src/vibrator.o
  .group         0x00000000        0xc ./src/vibrator.o
@@ -456,8 +264,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./src/vibrator.o
  .debug_macro   0x00000000       0x46 ./src/vibrator.o
  .debug_macro   0x00000000       0x7c ./src/vibrator.o
- .debug_macro   0x00000000       0x1c ./src/vibrator.o
- .debug_macro   0x00000000       0x3a ./src/vibrator.o
+ .debug_macro   0x00000000       0x10 ./src/vibrator.o
+ .debug_macro   0x00000000       0x52 ./src/vibrator.o
  .group         0x00000000        0xc ./src/zones.o
  .group         0x00000000        0xc ./src/zones.o
  .group         0x00000000        0xc ./src/zones.o
@@ -477,162 +285,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./src/zones.o
  .debug_macro   0x00000000       0x46 ./src/zones.o
  .debug_macro   0x00000000       0x7c ./src/zones.o
- .debug_macro   0x00000000       0x1c ./src/zones.o
- .debug_macro   0x00000000       0x3a ./src/zones.o
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .data          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .bss           0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_DisableMainPLL
-                0x00000000       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .rodata.periph_to_base
-                0x00000000       0x6c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_TestMainPLLMultiplier
-                0x00000000       0x48 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_FindBaseClock
-                0x00000000       0x90 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_DisableCrystal
-                0x00000000       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_SetupMainPLLHz
-                0x00000000      0x126 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_SetupMainPLLMult
-                0x00000000       0xfc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_SetDivider
-                0x00000000       0x88 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetBaseClocktHz
-                0x00000000       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetBaseClockOpts
-                0x00000000       0x84 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_EnableBaseClock
-                0x00000000       0x3c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_DisableBaseClock
-                0x00000000       0x3c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_IsBaseClockEnabled
-                0x00000000       0x44 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetBaseClock
-                0x00000000       0x4c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_EnableOpts
-                0x00000000       0x7c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_Enable
-                0x00000000       0x60 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_RTCEnable
-                0x00000000       0x2c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_Disable
-                0x00000000       0x60 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_StartPowerDown
-                0x00000000       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_ClearPowerDown
-                0x00000000       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetRate
-                0x00000000       0x88 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetEMCRate
-                0x00000000       0x48 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_SetupPLL
-                0x00000000       0x7c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_EnablePLL
-                0x00000000       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_DisablePLL
-                0x00000000       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetPLLStatus
-                0x00000000       0x28 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x12d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x7b C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x28 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x3b C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x2d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x42 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0xd39 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x2bc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x112 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x11 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x2a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x2e6 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x82 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x13d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x198 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x34 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x58 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x236 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x572 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x18a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x88 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x1b9 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x1da C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x1c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x2e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x2e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x201 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0xe0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x34c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0xdc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0xc4 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x94 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0xb8 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x4c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x16 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000      0x328 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x3a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0xd0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x18 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00000000       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 ./src/zones.o
+ .debug_macro   0x00000000       0x52 ./src/zones.o
  .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
@@ -648,7 +302,6 @@ Discarded input sections
  .text          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .data          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .bss           0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_macro   0x00000000      0xa66 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .debug_macro   0x00000000      0x12d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
@@ -660,53 +313,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x2d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .debug_macro   0x00000000       0x42 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .debug_macro   0x00000000      0xd39 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .data          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .bss           0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_GetCount
-                0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_GetFree
-                0x00000000       0x1e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_IsFull
-                0x00000000       0x26 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_IsEmpty
-                0x00000000       0x2a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_Init
-                0x00000000       0x3c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_Insert
-                0x00000000       0x5c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_InsertMult
-                0x00000000      0x122 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_Pop
-                0x00000000       0x5c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .text.RingBuffer_PopMult
-                0x00000000      0x122 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_info    0x00000000      0x379 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_abbrev  0x00000000      0x162 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_aranges
-                0x00000000       0x60 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_ranges  0x00000000       0x50 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x83 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0xa66 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x12d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000      0x5b2 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x74 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_line    0x00000000      0x253 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_str     0x00000000     0x483e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .comment       0x00000000       0x7f C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .debug_frame   0x00000000      0x164 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
- .ARM.attributes
-                0x00000000       0x37 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
  .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
@@ -812,185 +418,167 @@ Discarded input sections
  .debug_macro   0x00000000       0x18 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .debug_macro   0x00000000       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
- .text.memcpy   0x00000000        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableMainPLL
+                0x00000000       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .rodata.periph_to_base
+                0x00000000       0x6c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_TestMainPLLMultiplier
+                0x00000000       0x48 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_FindBaseClock
+                0x00000000       0x90 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableCrystal
+                0x00000000       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLHz
+                0x00000000      0x126 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLMult
+                0x00000000       0xfc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetDivider
+                0x00000000       0x88 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClocktHz
+                0x00000000       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClockOpts
+                0x00000000       0x84 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableBaseClock
+                0x00000000       0x3c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableBaseClock
+                0x00000000       0x3c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_IsBaseClockEnabled
+                0x00000000       0x44 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClock
+                0x00000000       0x4c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableOpts
+                0x00000000       0x7c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Enable
+                0x00000000       0x60 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_RTCEnable
+                0x00000000       0x2c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Disable
+                0x00000000       0x60 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_StartPowerDown
+                0x00000000       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_ClearPowerDown
+                0x00000000       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetRate
+                0x00000000       0x88 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetEMCRate
+                0x00000000       0x48 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupPLL
+                0x00000000       0x7c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000000       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisablePLL
+                0x00000000       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetPLLStatus
+                0x00000000       0x28 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
  .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
  .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
- .text.sin      0x00000000       0x38 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
- .text._sincos  0x00000000      0x204 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
- .bss.errno     0x00000000        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
- .text.fabs     0x00000000       0x1c c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .rodata.__huge_val
-                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .rodata.__huge_vall
-                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
- .text.__aeabi_division_ldivmod
-                0x00000000       0x26 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
- .text.__aeabi_division_uldivmod
-                0x00000000      0x174 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
- .ARM.attributes
-                0x00000000       0x25 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
- .text.__aeabi_division_idiv0
-                0x00000000        0x2 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
- .ARM.attributes
-                0x00000000       0x25 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dmul
-                0x00000000      0x11c c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_ddiv
-                0x00000000      0x138 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dsub
-                0x00000000      0x1b4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dadd
-                0x00000000      0x10c c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_drsub
-                0x00000000       0x18 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dneg
-                0x00000000        0xe c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_d2f
-                0x00000000       0x54 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_d2iz
-                0x00000000       0x40 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_d2uiz
-                0x00000000       0x30 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_d2lz
-                0x00000000       0x6c c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_d2ulz
-                0x00000000       0x56 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__bhs_ui2d
-                0x00000000       0x46 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__bhs_ul2d
-                0x00000000       0x8a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_i2d
-                0x00000000       0x12 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_ui2d
-                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_l2d
-                0x00000000       0x1a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_ul2d
-                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dcmpeq
-                0x00000000       0x30 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dcmplt
-                0x00000000       0x58 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dcmpgt
-                0x00000000       0x58 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dcmple
-                0x00000000       0x5a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dcmpge
-                0x00000000       0x58 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_dcmpun
-                0x00000000       0x1a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_cdcmple
-                0x00000000       0x2c c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text.__aeabi_cdrcmple
-                0x00000000       0x14 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
- .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fmul
-                0x00000000       0xb0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fdiv
-                0x00000000       0xc8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fsub
-                0x00000000       0xf0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fadd
-                0x00000000       0xc8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_frsub
-                0x00000000        0xc c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fneg
-                0x00000000        0x6 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_f2iz
-                0x00000000       0x36 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_f2uiz
-                0x00000000       0x28 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_f2lz
-                0x00000000       0x5c c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_f2ulz
-                0x00000000       0x3e c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__bhs_ui2f
-                0x00000000       0x26 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__bhs_ul2f
-                0x00000000       0x46 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_i2f
-                0x00000000       0x12 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_ui2f
-                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_l2f
-                0x00000000       0x1a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_ul2f
-                0x00000000        0x8 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_f2d
-                0x00000000       0x38 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fcmpeq
-                0x00000000       0x1e c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fcmplt
-                0x00000000       0x3a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fcmpgt
-                0x00000000       0x3a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fcmple
-                0x00000000       0x3e c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fcmpge
-                0x00000000       0x3e c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_fcmpun
-                0x00000000       0x1a c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_cfcmple
-                0x00000000       0x20 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .text.__aeabi_cfrcmple
-                0x00000000        0xa c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .comment       0x00000000       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
- .ARM.attributes
-                0x00000000       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
  .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
  .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
  .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
@@ -1017,6 +605,7 @@ RamAHB_ETB16     0x2000c000         0x00004000         xrw
 
 Linker script and memory map
 
+LOAD ./src/PWM.o
 LOAD ./src/cr_startup_lpc43xx.o
 LOAD ./src/crp.o
 LOAD ./src/dac.o
@@ -1029,7 +618,6 @@ LOAD ./src/scu_set.o
 LOAD ./src/sysinit.o
 LOAD ./src/tec_setup.o
 LOAD ./src/timers.o
-LOAD ./src/uart_18xx_43xx.o
 LOAD ./src/vibrator.o
 LOAD ./src/zones.o
 LOAD C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a
@@ -1075,7 +663,7 @@ END GROUP
  *(.rodata.$Flash2*)
  *(.rodata.$MFlashB512*)
 
-.text           0x1a000000     0x19dc
+.text           0x1a000000     0x1bc4
  FILL mask 0xff
                 0x1a000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1084,19 +672,19 @@ END GROUP
                 0x1a000114                . = ALIGN (0x4)
                 0x1a000114                __section_table_start = .
                 0x1a000114                __data_section_table = .
-                0x1a000114        0x4 LONG 0x1a0019dc LOADADDR (.data)
+                0x1a000114        0x4 LONG 0x1a001bc4 LOADADDR (.data)
                 0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
                 0x1a00011c        0x4 LONG 0x0 SIZEOF (.data)
-                0x1a000120        0x4 LONG 0x1a0019dc LOADADDR (.data_RAM2)
+                0x1a000120        0x4 LONG 0x1a001bc4 LOADADDR (.data_RAM2)
                 0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
                 0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
-                0x1a00012c        0x4 LONG 0x1a0019dc LOADADDR (.data_RAM3)
+                0x1a00012c        0x4 LONG 0x1a001bc4 LOADADDR (.data_RAM3)
                 0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
                 0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
-                0x1a000138        0x4 LONG 0x1a0019dc LOADADDR (.data_RAM4)
+                0x1a000138        0x4 LONG 0x1a001bc4 LOADADDR (.data_RAM4)
                 0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
                 0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
-                0x1a000144        0x4 LONG 0x1a0019dc LOADADDR (.data_RAM5)
+                0x1a000144        0x4 LONG 0x1a001bc4 LOADADDR (.data_RAM5)
                 0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
                 0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
                 0x1a000150                __data_section_table_end = .
@@ -1178,237 +766,239 @@ END GROUP
                 0x1a00022a                GINT1_IRQHandler
                 0x1a00022a                GPIO4_IRQHandler
  *(.text*)
+ .text.PWM_pulse
+                0x1a000230      0x120 ./src/PWM.o
+                0x1a000230                PWM_pulse
  .text.ResetISR
-                0x1a000230       0xc4 ./src/cr_startup_lpc43xx.o
-                0x1a000230                ResetISR
+                0x1a000350       0xc4 ./src/cr_startup_lpc43xx.o
+                0x1a000350                ResetISR
  .text.Enable_DAC
-                0x1a0002f4       0x24 ./src/dac.o
-                0x1a0002f4                Enable_DAC
+                0x1a000414       0x24 ./src/dac.o
+                0x1a000414                Enable_DAC
  .text.Values_DAC
-                0x1a000318       0x54 ./src/dac.o
-                0x1a000318                Values_DAC
+                0x1a000438       0x54 ./src/dac.o
+                0x1a000438                Values_DAC
  .text.Distance_interrupt
-                0x1a00036c       0x22 ./src/distance_sensor.o
-                0x1a00036c                Distance_interrupt
- *fill*         0x1a00038e        0x2 ff
+                0x1a00048c       0x22 ./src/distance_sensor.o
+                0x1a00048c                Distance_interrupt
+ *fill*         0x1a0004ae        0x2 ff
  .text.distance_sensor_trigger
-                0x1a000390       0x2c ./src/distance_sensor.o
-                0x1a000390                distance_sensor_trigger
+                0x1a0004b0       0x2c ./src/distance_sensor.o
+                0x1a0004b0                distance_sensor_trigger
  .text.distance_sensor_listen_echo
-                0x1a0003bc       0xa4 ./src/distance_sensor.o
-                0x1a0003bc                distance_sensor_listen_echo
+                0x1a0004dc       0x90 ./src/distance_sensor.o
+                0x1a0004dc                distance_sensor_listen_echo
  .text.distance_cm
-                0x1a000460       0x24 ./src/distance_sensor.o
-                0x1a000460                distance_cm
+                0x1a00056c       0x24 ./src/distance_sensor.o
+                0x1a00056c                distance_cm
  .text.GPIO_SetPinDIR
-                0x1a000484       0x7e ./src/gpio_set.o
-                0x1a000484                GPIO_SetPinDIR
+                0x1a000590       0x7e ./src/gpio_set.o
+                0x1a000590                GPIO_SetPinDIR
  .text.GPIO_SetPin
-                0x1a000502       0x7c ./src/gpio_set.o
-                0x1a000502                GPIO_SetPin
- *fill*         0x1a00057e        0x2 ff
+                0x1a00060e       0x7c ./src/gpio_set.o
+                0x1a00060e                GPIO_SetPin
+ .text.GPIO_TogglePin
+                0x1a00068a       0x40 ./src/gpio_set.o
+                0x1a00068a                GPIO_TogglePin
+ *fill*         0x1a0006ca        0x2 ff
  .text.Enable_NVIC
-                0x1a000580       0x68 ./src/interruptions.o
-                0x1a000580                Enable_NVIC
+                0x1a0006cc       0x68 ./src/interruptions.o
+                0x1a0006cc                Enable_NVIC
  .text.SelectEdge_PIN_INT
-                0x1a0005e8       0x34 ./src/interruptions.o
-                0x1a0005e8                SelectEdge_PIN_INT
+                0x1a000734       0x34 ./src/interruptions.o
+                0x1a000734                SelectEdge_PIN_INT
  .text.Enable_FallingEdge
-                0x1a00061c       0x30 ./src/interruptions.o
-                0x1a00061c                Enable_FallingEdge
+                0x1a000768       0x30 ./src/interruptions.o
+                0x1a000768                Enable_FallingEdge
  .text.Enable_RisingEdge
-                0x1a00064c       0x30 ./src/interruptions.o
-                0x1a00064c                Enable_RisingEdge
+                0x1a000798       0x30 ./src/interruptions.o
+                0x1a000798                Enable_RisingEdge
  .text.Select_GPIO_interrupt
-                0x1a00067c       0x68 ./src/interruptions.o
-                0x1a00067c                Select_GPIO_interrupt
- .text.LED_cfg  0x1a0006e4       0xd4 ./src/leds_setup.o
-                0x1a0006e4                LED_cfg
+                0x1a0007c8       0x68 ./src/interruptions.o
+                0x1a0007c8                Select_GPIO_interrupt
+ .text.LED_cfg  0x1a000830       0xd4 ./src/leds_setup.o
+                0x1a000830                LED_cfg
  .text.LED_high
-                0x1a0007b8       0xa0 ./src/leds_setup.o
-                0x1a0007b8                LED_high
- .text.LED_low  0x1a000858       0xa0 ./src/leds_setup.o
-                0x1a000858                LED_low
- .text.LED_ALL  0x1a0008f8       0x2c ./src/leds_setup.o
-                0x1a0008f8                LED_ALL
- .text.LED_ALL_ON
-                0x1a000924       0x2c ./src/leds_setup.o
-                0x1a000924                LED_ALL_ON
+                0x1a000904       0xa0 ./src/leds_setup.o
+                0x1a000904                LED_high
+ .text.LED_low  0x1a0009a4       0xa0 ./src/leds_setup.o
+                0x1a0009a4                LED_low
+ .text.LED_toggle
+                0x1a000a44       0xa0 ./src/leds_setup.o
+                0x1a000a44                LED_toggle
+ .text.LED_ALL  0x1a000ae4       0x2c ./src/leds_setup.o
+                0x1a000ae4                LED_ALL
  .text.PERIPHERAL_init
-                0x1a000950       0x22 ./src/main.o
-                0x1a000950                PERIPHERAL_init
+                0x1a000b10       0x22 ./src/main.o
+                0x1a000b10                PERIPHERAL_init
  .text.DAC_init
-                0x1a000972       0x12 ./src/main.o
-                0x1a000972                DAC_init
+                0x1a000b32       0x12 ./src/main.o
+                0x1a000b32                DAC_init
  .text.SCU_init
-                0x1a000984       0x44 ./src/main.o
-                0x1a000984                SCU_init
+                0x1a000b44       0x44 ./src/main.o
+                0x1a000b44                SCU_init
  .text.GPIO_init
-                0x1a0009c8       0x30 ./src/main.o
-                0x1a0009c8                GPIO_init
+                0x1a000b88       0x3c ./src/main.o
+                0x1a000b88                GPIO_init
  .text.TIMERS_init
-                0x1a0009f8       0x20 ./src/main.o
-                0x1a0009f8                TIMERS_init
+                0x1a000bc4       0x34 ./src/main.o
+                0x1a000bc4                TIMERS_init
  .text.NVIC_init
-                0x1a000a18       0x1e ./src/main.o
-                0x1a000a18                NVIC_init
- *fill*         0x1a000a36        0x2 ff
+                0x1a000bf8       0x1e ./src/main.o
+                0x1a000bf8                NVIC_init
+ *fill*         0x1a000c16        0x2 ff
  .text.GPIO0_IRQHandler
-                0x1a000a38       0x40 ./src/main.o
-                0x1a000a38                GPIO0_IRQHandler
- .text.main     0x1a000a78       0x84 ./src/main.o
-                0x1a000a78                main
+                0x1a000c18       0x40 ./src/main.o
+                0x1a000c18                GPIO0_IRQHandler
+ .text.main     0x1a000c58       0x94 ./src/main.o
+                0x1a000c58                main
  .text.SCU_SetPin
-                0x1a000afc       0x4e ./src/scu_set.o
-                0x1a000afc                SCU_SetPin
- *fill*         0x1a000b4a        0x2 ff
+                0x1a000cec       0x4e ./src/scu_set.o
+                0x1a000cec                SCU_SetPin
+ *fill*         0x1a000d3a        0x2 ff
  .text.SCU_EnableBuffer
-                0x1a000b4c       0x40 ./src/scu_set.o
-                0x1a000b4c                SCU_EnableBuffer
- .text.SCU_DisableGlitchFilter
-                0x1a000b8c       0x40 ./src/scu_set.o
-                0x1a000b8c                SCU_DisableGlitchFilter
+                0x1a000d3c       0x40 ./src/scu_set.o
+                0x1a000d3c                SCU_EnableBuffer
  .text.SCU_enablePD_disablePU
-                0x1a000bcc       0x60 ./src/scu_set.o
-                0x1a000bcc                SCU_enablePD_disablePU
+                0x1a000d7c       0x60 ./src/scu_set.o
+                0x1a000d7c                SCU_enablePD_disablePU
  .text.SystemInit
-                0x1a000c2c       0x28 ./src/sysinit.o
-                0x1a000c2c                SystemInit
+                0x1a000ddc       0x28 ./src/sysinit.o
+                0x1a000ddc                SystemInit
  .text.Clock_enable
-                0x1a000c54       0x74 ./src/timers.o
-                0x1a000c54                Clock_enable
+                0x1a000e04       0x74 ./src/timers.o
+                0x1a000e04                Clock_enable
  .text.TIMER_getPTR
-                0x1a000cc8       0x60 ./src/timers.o
-                0x1a000cc8                TIMER_getPTR
+                0x1a000e78       0x60 ./src/timers.o
+                0x1a000e78                TIMER_getPTR
  .text.TIMER_init
-                0x1a000d28       0x30 ./src/timers.o
-                0x1a000d28                TIMER_init
+                0x1a000ed8       0x30 ./src/timers.o
+                0x1a000ed8                TIMER_init
  .text.TIMER_enable
-                0x1a000d58       0x28 ./src/timers.o
-                0x1a000d58                TIMER_enable
+                0x1a000f08       0x28 ./src/timers.o
+                0x1a000f08                TIMER_enable
  .text.TIMER_disable
-                0x1a000d80       0x28 ./src/timers.o
-                0x1a000d80                TIMER_disable
+                0x1a000f30       0x28 ./src/timers.o
+                0x1a000f30                TIMER_disable
  .text.TIMER_ReadCount
-                0x1a000da8       0x20 ./src/timers.o
-                0x1a000da8                TIMER_ReadCount
+                0x1a000f58       0x20 ./src/timers.o
+                0x1a000f58                TIMER_ReadCount
  .text.TIMER_reset
-                0x1a000dc8       0x44 ./src/timers.o
-                0x1a000dc8                TIMER_reset
+                0x1a000f78       0x44 ./src/timers.o
+                0x1a000f78                TIMER_reset
  .text.TIMER_SetFrequency
-                0x1a000e0c       0x34 ./src/timers.o
-                0x1a000e0c                TIMER_SetFrequency
+                0x1a000fbc       0x34 ./src/timers.o
+                0x1a000fbc                TIMER_SetFrequency
  .text.delay_us
-                0x1a000e40       0x32 ./src/timers.o
-                0x1a000e40                delay_us
- *fill*         0x1a000e72        0x2 ff
+                0x1a000ff0       0x48 ./src/timers.o
+                0x1a000ff0                delay_us
  .text.vibrator_ON
-                0x1a000e74       0x4c ./src/vibrator.o
-                0x1a000e74                vibrator_ON
+                0x1a001038       0x4c ./src/vibrator.o
+                0x1a001038                vibrator_ON
  .text.vibrator_OFF
-                0x1a000ec0        0xe ./src/vibrator.o
-                0x1a000ec0                vibrator_OFF
- *fill*         0x1a000ece        0x2 ff
- .text.zone     0x1a000ed0       0x9c ./src/zones.o
-                0x1a000ed0                zone
- .text.ABS      0x1a000f6c       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- *fill*         0x1a000f8e        0x2 ff
- .text.pll_calc_divs
-                0x1a000f90      0x124 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.pll_get_frac
-                0x1a0010b4      0x176 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .text.Chip_Clock_GetDivRate
-                0x1a00122a       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- *fill*         0x1a00126a        0x2 ff
- .text.Chip_Clock_EnableCrystal
-                0x1a00126c       0x70 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a00126c                Chip_Clock_EnableCrystal
- .text.Chip_Clock_CalcMainPLLValue
-                0x1a0012dc       0xd8 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0012dc                Chip_Clock_CalcMainPLLValue
- .text.Chip_Clock_GetMainPLLHz
-                0x1a0013b4       0xc0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0013b4                Chip_Clock_GetMainPLLHz
- .text.Chip_Clock_GetDividerSource
-                0x1a001474       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a001474                Chip_Clock_GetDividerSource
- .text.Chip_Clock_GetDividerDivisor
-                0x1a0014b4       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0014b4                Chip_Clock_GetDividerDivisor
- .text.Chip_Clock_GetClockInputHz
-                0x1a0014ec      0x140 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a0014ec                Chip_Clock_GetClockInputHz
- .text.Chip_Clock_SetBaseClock
-                0x1a00162c       0x9c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                0x1a00162c                Chip_Clock_SetBaseClock
- .text.fpuInit  0x1a0016c8       0x74 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
-                0x1a0016c8                fpuInit
+                0x1a001084        0xe ./src/vibrator.o
+                0x1a001084                vibrator_OFF
+ *fill*         0x1a001092        0x2 ff
+ .text.zone     0x1a001094       0xc0 ./src/zones.o
+                0x1a001094                zone
+ .text.fpuInit  0x1a001154       0x74 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                0x1a001154                fpuInit
  .text.Chip_Clock_DisableMainPLL
-                0x1a00173c       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a0011c8       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .text.Chip_Clock_SetupMainPLL
-                0x1a00175c       0x44 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a0011e8       0x44 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .text.Chip_Clock_MainPLLLocked
-                0x1a0017a0       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a00122c       0x24 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .text.Chip_SetupCoreClock
-                0x1a0017c4      0x15c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
-                0x1a0017c4                Chip_SetupCoreClock
+                0x1a001250      0x15c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a001250                Chip_SetupCoreClock
  .text.Chip_SetupIrcClocking
-                0x1a001920       0x18 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
-                0x1a001920                Chip_SetupIrcClocking
+                0x1a0013ac       0x18 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a0013ac                Chip_SetupIrcClocking
  .text.Chip_SystemInit
-                0x1a001938        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
-                0x1a001938                Chip_SystemInit
- .text.memset   0x1a001944        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
-                0x1a001944                memset
+                0x1a0013c4        0xc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a0013c4                Chip_SystemInit
+ .text.ABS      0x1a0013d0       0x22 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *fill*         0x1a0013f2        0x2 ff
+ .text.pll_calc_divs
+                0x1a0013f4      0x124 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.pll_get_frac
+                0x1a001518      0x176 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetDivRate
+                0x1a00168e       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *fill*         0x1a0016ce        0x2 ff
+ .text.Chip_Clock_EnableCrystal
+                0x1a0016d0       0x70 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0016d0                Chip_Clock_EnableCrystal
+ .text.Chip_Clock_CalcMainPLLValue
+                0x1a001740       0xd8 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001740                Chip_Clock_CalcMainPLLValue
+ .text.Chip_Clock_GetMainPLLHz
+                0x1a001818       0xc0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001818                Chip_Clock_GetMainPLLHz
+ .text.Chip_Clock_GetDividerSource
+                0x1a0018d8       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a0018d8                Chip_Clock_GetDividerSource
+ .text.Chip_Clock_GetDividerDivisor
+                0x1a001918       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001918                Chip_Clock_GetDividerDivisor
+ .text.Chip_Clock_GetClockInputHz
+                0x1a001950      0x140 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001950                Chip_Clock_GetClockInputHz
+ .text.Chip_Clock_SetBaseClock
+                0x1a001a90       0x9c C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001a90                Chip_Clock_SetBaseClock
+ .text.memset   0x1a001b2c        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
+                0x1a001b2c                memset
  .text.__weak_main
-                0x1a001948        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
-                0x1a001948                __weak_main
-                0x1a001948                __main
+                0x1a001b30        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
+                0x1a001b30                __weak_main
+                0x1a001b30                __main
  .text.__aeabi_memset_lowlevel
-                0x1a00194c       0x32 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
-                0x1a00194c                __aeabi_lowlevel_memset
+                0x1a001b34       0x32 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
+                0x1a001b34                __aeabi_lowlevel_memset
  *(.rodata .rodata.* .constdata .constdata.*)
- *fill*         0x1a00197e        0x2 ff
+ *fill*         0x1a001b66        0x2 ff
  .rodata.ExtRateIn
-                0x1a001980        0x4 ./src/sysinit.o
-                0x1a001980                ExtRateIn
+                0x1a001b68        0x4 ./src/sysinit.o
+                0x1a001b68                ExtRateIn
  .rodata.OscRateIn
-                0x1a001984        0x4 ./src/sysinit.o
-                0x1a001984                OscRateIn
- .rodata        0x1a001988        0xa C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- *fill*         0x1a001992        0x2 ff
+                0x1a001b6c        0x4 ./src/sysinit.o
+                0x1a001b6c                OscRateIn
  .rodata.InitClkStates
-                0x1a001994       0x48 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
-                0x1a0019dc                . = ALIGN (0x4)
+                0x1a001b70       0x48 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .rodata        0x1a001bb8        0xa C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a001bc4                . = ALIGN (0x4)
+ *fill*         0x1a001bc2        0x2 ff
 
-.glue_7         0x1a0019dc        0x0
- .glue_7        0x1a0019dc        0x0 linker stubs
+.glue_7         0x1a001bc4        0x0
+ .glue_7        0x1a001bc4        0x0 linker stubs
 
-.glue_7t        0x1a0019dc        0x0
- .glue_7t       0x1a0019dc        0x0 linker stubs
+.glue_7t        0x1a001bc4        0x0
+ .glue_7t       0x1a001bc4        0x0 linker stubs
 
-.vfp11_veneer   0x1a0019dc        0x0
- .vfp11_veneer  0x1a0019dc        0x0 linker stubs
+.vfp11_veneer   0x1a001bc4        0x0
+ .vfp11_veneer  0x1a001bc4        0x0 linker stubs
 
-.v4_bx          0x1a0019dc        0x0
- .v4_bx         0x1a0019dc        0x0 linker stubs
+.v4_bx          0x1a001bc4        0x0
+ .v4_bx         0x1a001bc4        0x0 linker stubs
 
-.iplt           0x1a0019dc        0x0
- .iplt          0x1a0019dc        0x0 ./src/cr_startup_lpc43xx.o
+.iplt           0x1a001bc4        0x0
+ .iplt          0x1a001bc4        0x0 ./src/PWM.o
 
-.rel.dyn        0x1a0019dc        0x0
- .rel.iplt      0x1a0019dc        0x0 ./src/cr_startup_lpc43xx.o
+.rel.dyn        0x1a001bc4        0x0
+ .rel.iplt      0x1a001bc4        0x0 ./src/PWM.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x1a0019dc                __exidx_start = .
+                0x1a001bc4                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x1a0019dc                __exidx_end = .
-                0x1a0019dc                _etext = .
+                0x1a001bc4                __exidx_end = .
+                0x1a001bc4                _etext = .
 
-.data_RAM2      0x10080000        0x0 load address 0x1a0019dc
+.data_RAM2      0x10080000        0x0 load address 0x1a001bc4
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -1418,7 +1008,7 @@ END GROUP
                 0x10080000                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__end_data_RAM2, .)
 
-.data_RAM3      0x20000000        0x0 load address 0x1a0019dc
+.data_RAM3      0x20000000        0x0 load address 0x1a001bc4
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM3, .)
  *(.ramfunc.$RAM3)
@@ -1428,7 +1018,7 @@ END GROUP
                 0x20000000                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__end_data_RAM3, .)
 
-.data_RAM4      0x20008000        0x0 load address 0x1a0019dc
+.data_RAM4      0x20008000        0x0 load address 0x1a001bc4
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM4, .)
  *(.ramfunc.$RAM4)
@@ -1438,7 +1028,7 @@ END GROUP
                 0x20008000                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__end_data_RAM4, .)
 
-.data_RAM5      0x2000c000        0x0 load address 0x1a0019dc
+.data_RAM5      0x2000c000        0x0 load address 0x1a001bc4
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM5, .)
  *(.ramfunc.$RAM5)
@@ -1454,7 +1044,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000        0x0 load address 0x1a0019dc
+.data           0x10000000        0x0 load address 0x1a001bc4
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -1463,8 +1053,8 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _edata = .
 
-.igot.plt       0x10000000        0x0 load address 0x1a0019dc
- .igot.plt      0x10000000        0x0 ./src/cr_startup_lpc43xx.o
+.igot.plt       0x10000000        0x0 load address 0x1a001bc4
+ .igot.plt      0x10000000        0x0 ./src/PWM.o
 
 .bss_RAM2       0x10080000        0x0
                 [!provide]                PROVIDE (__start_bss_RAM2, .)
@@ -1535,222 +1125,232 @@ END GROUP
                 0x1000000c                _end_noinit = .
                 [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
                 0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
-                0x53ff73ca                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0x53ff72aa                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x1a000000                _image_start = LOADADDR (.text)
-                0x1a0019dc                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x000019dc                _image_size = (_image_end - _image_start)
+                0x1a001bc4                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00001bc4                _image_size = (_image_end - _image_start)
 OUTPUT(Final_D2_LPCOpen.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x4b04
- .debug_info    0x00000000      0x299 ./src/cr_startup_lpc43xx.o
- .debug_info    0x00000299      0x4e7 ./src/dac.o
- .debug_info    0x00000780      0x26b ./src/distance_sensor.o
- .debug_info    0x000009eb      0x26b ./src/gpio_set.o
- .debug_info    0x00000c56      0x580 ./src/interruptions.o
- .debug_info    0x000011d6      0x44e ./src/leds_setup.o
- .debug_info    0x00001624      0x611 ./src/main.o
- .debug_info    0x00001c35      0x278 ./src/scu_set.o
- .debug_info    0x00001ead      0x5fa ./src/sysinit.o
- .debug_info    0x000024a7      0x38d ./src/timers.o
- .debug_info    0x00002834      0x108 ./src/vibrator.o
- .debug_info    0x0000293c      0x155 ./src/zones.o
- .debug_info    0x00002a91     0x15c3 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_info    0x00004054      0x156 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_info    0x000041aa      0x95a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+.debug_info     0x00000000     0x4af3
+ .debug_info    0x00000000      0x216 ./src/PWM.o
+ .debug_info    0x00000216      0x299 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x000004af      0x26b ./src/dac.o
+ .debug_info    0x0000071a      0x24f ./src/distance_sensor.o
+ .debug_info    0x00000969      0x26b ./src/gpio_set.o
+ .debug_info    0x00000bd4      0x580 ./src/interruptions.o
+ .debug_info    0x00001154      0x44e ./src/leds_setup.o
+ .debug_info    0x000015a2      0x640 ./src/main.o
+ .debug_info    0x00001be2      0x278 ./src/scu_set.o
+ .debug_info    0x00001e5a      0x5fa ./src/sysinit.o
+ .debug_info    0x00002454      0x3a9 ./src/timers.o
+ .debug_info    0x000027fd      0x108 ./src/vibrator.o
+ .debug_info    0x00002905      0x17b ./src/zones.o
+ .debug_info    0x00002a80      0x156 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_info    0x00002bd6      0x95a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_info    0x00003530     0x15c3 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
-.debug_abbrev   0x00000000     0x126b
- .debug_abbrev  0x00000000      0x10c ./src/cr_startup_lpc43xx.o
- .debug_abbrev  0x0000010c      0x184 ./src/dac.o
- .debug_abbrev  0x00000290      0x143 ./src/distance_sensor.o
- .debug_abbrev  0x000003d3      0x11e ./src/gpio_set.o
- .debug_abbrev  0x000004f1      0x12d ./src/interruptions.o
- .debug_abbrev  0x0000061e      0x158 ./src/leds_setup.o
- .debug_abbrev  0x00000776      0x168 ./src/main.o
- .debug_abbrev  0x000008de       0xd0 ./src/scu_set.o
- .debug_abbrev  0x000009ae       0xf9 ./src/sysinit.o
- .debug_abbrev  0x00000aa7      0x149 ./src/timers.o
- .debug_abbrev  0x00000bf0       0xa9 ./src/vibrator.o
- .debug_abbrev  0x00000c99       0x9e ./src/zones.o
- .debug_abbrev  0x00000d37      0x2db C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_abbrev  0x00001012       0xaa C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_abbrev  0x000010bc      0x1af C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+.debug_abbrev   0x00000000     0x1308
+ .debug_abbrev  0x00000000      0x117 ./src/PWM.o
+ .debug_abbrev  0x00000117      0x10c ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x00000223      0x10a ./src/dac.o
+ .debug_abbrev  0x0000032d      0x143 ./src/distance_sensor.o
+ .debug_abbrev  0x00000470      0x11e ./src/gpio_set.o
+ .debug_abbrev  0x0000058e      0x12d ./src/interruptions.o
+ .debug_abbrev  0x000006bb      0x158 ./src/leds_setup.o
+ .debug_abbrev  0x00000813      0x168 ./src/main.o
+ .debug_abbrev  0x0000097b       0xd0 ./src/scu_set.o
+ .debug_abbrev  0x00000a4b       0xf9 ./src/sysinit.o
+ .debug_abbrev  0x00000b44      0x149 ./src/timers.o
+ .debug_abbrev  0x00000c8d       0xa9 ./src/vibrator.o
+ .debug_abbrev  0x00000d36       0x9e ./src/zones.o
+ .debug_abbrev  0x00000dd4       0xaa C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_abbrev  0x00000e7e      0x1af C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_abbrev  0x0000102d      0x2db C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
-.debug_aranges  0x00000000      0x4c8
+.debug_aranges  0x00000000      0x4d0
  .debug_aranges
-                0x00000000       0x80 ./src/cr_startup_lpc43xx.o
+                0x00000000       0x20 ./src/PWM.o
  .debug_aranges
-                0x00000080       0x48 ./src/dac.o
+                0x00000020       0x80 ./src/cr_startup_lpc43xx.o
  .debug_aranges
-                0x000000c8       0x38 ./src/distance_sensor.o
+                0x000000a0       0x30 ./src/dac.o
  .debug_aranges
-                0x00000100       0x38 ./src/gpio_set.o
+                0x000000d0       0x38 ./src/distance_sensor.o
  .debug_aranges
-                0x00000138       0x40 ./src/interruptions.o
+                0x00000108       0x38 ./src/gpio_set.o
  .debug_aranges
-                0x00000178       0x50 ./src/leds_setup.o
+                0x00000140       0x40 ./src/interruptions.o
  .debug_aranges
-                0x000001c8       0x58 ./src/main.o
+                0x00000180       0x50 ./src/leds_setup.o
  .debug_aranges
-                0x00000220       0x38 ./src/scu_set.o
+                0x000001d0       0x58 ./src/main.o
  .debug_aranges
-                0x00000258       0x20 ./src/sysinit.o
+                0x00000228       0x38 ./src/scu_set.o
  .debug_aranges
-                0x00000278       0x60 ./src/timers.o
+                0x00000260       0x20 ./src/sysinit.o
  .debug_aranges
-                0x000002d8       0x28 ./src/vibrator.o
+                0x00000280       0x60 ./src/timers.o
  .debug_aranges
-                0x00000300       0x20 ./src/zones.o
+                0x000002e0       0x28 ./src/vibrator.o
  .debug_aranges
-                0x00000320      0x138 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x00000308       0x20 ./src/zones.o
  .debug_aranges
-                0x00000458       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                0x00000328       0x20 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .debug_aranges
-                0x00000478       0x50 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x00000348       0x50 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_aranges
+                0x00000398      0x138 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
-.debug_ranges   0x00000000      0x3f0
- .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc43xx.o
- .debug_ranges  0x00000070       0x38 ./src/dac.o
- .debug_ranges  0x000000a8       0x28 ./src/distance_sensor.o
- .debug_ranges  0x000000d0       0x28 ./src/gpio_set.o
- .debug_ranges  0x000000f8       0x30 ./src/interruptions.o
- .debug_ranges  0x00000128       0x40 ./src/leds_setup.o
- .debug_ranges  0x00000168       0x48 ./src/main.o
- .debug_ranges  0x000001b0       0x28 ./src/scu_set.o
- .debug_ranges  0x000001d8       0x10 ./src/sysinit.o
- .debug_ranges  0x000001e8       0x50 ./src/timers.o
- .debug_ranges  0x00000238       0x18 ./src/vibrator.o
- .debug_ranges  0x00000250       0x10 ./src/zones.o
- .debug_ranges  0x00000260      0x140 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_ranges  0x000003a0       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_ranges  0x000003b0       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+.debug_ranges   0x00000000      0x3e8
+ .debug_ranges  0x00000000       0x10 ./src/PWM.o
+ .debug_ranges  0x00000010       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x00000080       0x20 ./src/dac.o
+ .debug_ranges  0x000000a0       0x28 ./src/distance_sensor.o
+ .debug_ranges  0x000000c8       0x28 ./src/gpio_set.o
+ .debug_ranges  0x000000f0       0x30 ./src/interruptions.o
+ .debug_ranges  0x00000120       0x40 ./src/leds_setup.o
+ .debug_ranges  0x00000160       0x48 ./src/main.o
+ .debug_ranges  0x000001a8       0x28 ./src/scu_set.o
+ .debug_ranges  0x000001d0       0x10 ./src/sysinit.o
+ .debug_ranges  0x000001e0       0x50 ./src/timers.o
+ .debug_ranges  0x00000230       0x18 ./src/vibrator.o
+ .debug_ranges  0x00000248       0x10 ./src/zones.o
+ .debug_ranges  0x00000258       0x10 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_ranges  0x00000268       0x40 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_ranges  0x000002a8      0x140 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
-.debug_macro    0x00000000     0x6393
- .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc43xx.o
- .debug_macro   0x0000001d      0xa78 ./src/cr_startup_lpc43xx.o
- .debug_macro   0x00000a95       0x84 ./src/dac.o
- .debug_macro   0x00000b19       0x46 ./src/dac.o
- .debug_macro   0x00000b5f       0x1c ./src/dac.o
- .debug_macro   0x00000b7b       0x22 ./src/dac.o
- .debug_macro   0x00000b9d       0x10 ./src/dac.o
- .debug_macro   0x00000bad       0xc4 ./src/dac.o
- .debug_macro   0x00000c71       0xe3 ./src/distance_sensor.o
- .debug_macro   0x00000d54       0x7c ./src/distance_sensor.o
- .debug_macro   0x00000dd0       0x3a ./src/distance_sensor.o
- .debug_macro   0x00000e0a       0x16 ./src/distance_sensor.o
- .debug_macro   0x00000e20       0x28 ./src/gpio_set.o
- .debug_macro   0x00000e48       0x28 ./src/interruptions.o
- .debug_macro   0x00000e70       0x38 ./src/leds_setup.o
- .debug_macro   0x00000ea8      0x121 ./src/main.o
- .debug_macro   0x00000fc9       0x28 ./src/scu_set.o
- .debug_macro   0x00000ff1      0x2da ./src/sysinit.o
- .debug_macro   0x000012cb       0x10 ./src/sysinit.o
- .debug_macro   0x000012db      0x12d ./src/sysinit.o
- .debug_macro   0x00001408      0x5b2 ./src/sysinit.o
- .debug_macro   0x000019ba       0x7b ./src/sysinit.o
- .debug_macro   0x00001a35       0x28 ./src/sysinit.o
- .debug_macro   0x00001a5d       0x3b ./src/sysinit.o
- .debug_macro   0x00001a98       0x2d ./src/sysinit.o
- .debug_macro   0x00001ac5       0x42 ./src/sysinit.o
- .debug_macro   0x00001b07      0xd39 ./src/sysinit.o
- .debug_macro   0x00002840      0x2bc ./src/sysinit.o
- .debug_macro   0x00002afc      0x112 ./src/sysinit.o
- .debug_macro   0x00002c0e       0x11 ./src/sysinit.o
- .debug_macro   0x00002c1f       0x2a ./src/sysinit.o
- .debug_macro   0x00002c49       0x16 ./src/sysinit.o
- .debug_macro   0x00002c5f      0x2e6 ./src/sysinit.o
- .debug_macro   0x00002f45       0x82 ./src/sysinit.o
- .debug_macro   0x00002fc7      0x13d ./src/sysinit.o
- .debug_macro   0x00003104      0x198 ./src/sysinit.o
- .debug_macro   0x0000329c       0x34 ./src/sysinit.o
- .debug_macro   0x000032d0       0x58 ./src/sysinit.o
- .debug_macro   0x00003328      0x236 ./src/sysinit.o
- .debug_macro   0x0000355e      0x572 ./src/sysinit.o
- .debug_macro   0x00003ad0       0x16 ./src/sysinit.o
- .debug_macro   0x00003ae6      0x18a ./src/sysinit.o
- .debug_macro   0x00003c70       0x88 ./src/sysinit.o
- .debug_macro   0x00003cf8      0x1b9 ./src/sysinit.o
- .debug_macro   0x00003eb1      0x1da ./src/sysinit.o
- .debug_macro   0x0000408b       0x40 ./src/sysinit.o
- .debug_macro   0x000040cb       0x1c ./src/sysinit.o
- .debug_macro   0x000040e7       0x2e ./src/sysinit.o
- .debug_macro   0x00004115       0x2e ./src/sysinit.o
- .debug_macro   0x00004143       0x22 ./src/sysinit.o
- .debug_macro   0x00004165      0x201 ./src/sysinit.o
- .debug_macro   0x00004366       0xe0 ./src/sysinit.o
- .debug_macro   0x00004446      0x34c ./src/sysinit.o
- .debug_macro   0x00004792       0xdc ./src/sysinit.o
- .debug_macro   0x0000486e       0xc4 ./src/sysinit.o
- .debug_macro   0x00004932       0x94 ./src/sysinit.o
- .debug_macro   0x000049c6       0xb8 ./src/sysinit.o
- .debug_macro   0x00004a7e       0x4c ./src/sysinit.o
- .debug_macro   0x00004aca       0x16 ./src/sysinit.o
- .debug_macro   0x00004ae0      0x328 ./src/sysinit.o
- .debug_macro   0x00004e08       0x3a ./src/sysinit.o
- .debug_macro   0x00004e42       0xd0 ./src/sysinit.o
- .debug_macro   0x00004f12       0x18 ./src/sysinit.o
- .debug_macro   0x00004f2a       0x22 ./src/sysinit.o
- .debug_macro   0x00004f4c       0x40 ./src/sysinit.o
- .debug_macro   0x00004f8c       0xe3 ./src/timers.o
- .debug_macro   0x0000506f       0x76 ./src/timers.o
- .debug_macro   0x000050e5       0xe9 ./src/vibrator.o
- .debug_macro   0x000051ce       0xe5 ./src/zones.o
- .debug_macro   0x000052b3      0x2e0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00005593      0xa66 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_macro   0x00005ff9       0xc0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_macro   0x000060b9      0x2da C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+.debug_macro    0x00000000     0x6483
+ .debug_macro   0x00000000       0xf3 ./src/PWM.o
+ .debug_macro   0x000000f3      0xa78 ./src/PWM.o
+ .debug_macro   0x00000b6b       0x46 ./src/PWM.o
+ .debug_macro   0x00000bb1       0x10 ./src/PWM.o
+ .debug_macro   0x00000bc1       0xc4 ./src/PWM.o
+ .debug_macro   0x00000c85       0x22 ./src/PWM.o
+ .debug_macro   0x00000ca7       0x16 ./src/PWM.o
+ .debug_macro   0x00000cbd       0x10 ./src/PWM.o
+ .debug_macro   0x00000ccd       0x52 ./src/PWM.o
+ .debug_macro   0x00000d1f       0x76 ./src/PWM.o
+ .debug_macro   0x00000d95       0x1d ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00000db2       0x77 ./src/dac.o
+ .debug_macro   0x00000e29       0xdd ./src/distance_sensor.o
+ .debug_macro   0x00000f06       0x7c ./src/distance_sensor.o
+ .debug_macro   0x00000f82       0x28 ./src/gpio_set.o
+ .debug_macro   0x00000faa       0x28 ./src/interruptions.o
+ .debug_macro   0x00000fd2       0x38 ./src/leds_setup.o
+ .debug_macro   0x0000100a      0x12d ./src/main.o
+ .debug_macro   0x00001137       0x28 ./src/scu_set.o
+ .debug_macro   0x0000115f      0x2da ./src/sysinit.o
+ .debug_macro   0x00001439       0x10 ./src/sysinit.o
+ .debug_macro   0x00001449      0x12d ./src/sysinit.o
+ .debug_macro   0x00001576      0x5b2 ./src/sysinit.o
+ .debug_macro   0x00001b28       0x7b ./src/sysinit.o
+ .debug_macro   0x00001ba3       0x28 ./src/sysinit.o
+ .debug_macro   0x00001bcb       0x3b ./src/sysinit.o
+ .debug_macro   0x00001c06       0x2d ./src/sysinit.o
+ .debug_macro   0x00001c33       0x42 ./src/sysinit.o
+ .debug_macro   0x00001c75      0xd39 ./src/sysinit.o
+ .debug_macro   0x000029ae      0x2bc ./src/sysinit.o
+ .debug_macro   0x00002c6a      0x112 ./src/sysinit.o
+ .debug_macro   0x00002d7c       0x11 ./src/sysinit.o
+ .debug_macro   0x00002d8d       0x2a ./src/sysinit.o
+ .debug_macro   0x00002db7       0x16 ./src/sysinit.o
+ .debug_macro   0x00002dcd      0x2e6 ./src/sysinit.o
+ .debug_macro   0x000030b3       0x82 ./src/sysinit.o
+ .debug_macro   0x00003135      0x13d ./src/sysinit.o
+ .debug_macro   0x00003272      0x198 ./src/sysinit.o
+ .debug_macro   0x0000340a       0x34 ./src/sysinit.o
+ .debug_macro   0x0000343e       0x58 ./src/sysinit.o
+ .debug_macro   0x00003496      0x236 ./src/sysinit.o
+ .debug_macro   0x000036cc      0x572 ./src/sysinit.o
+ .debug_macro   0x00003c3e       0x16 ./src/sysinit.o
+ .debug_macro   0x00003c54      0x18a ./src/sysinit.o
+ .debug_macro   0x00003dde       0x88 ./src/sysinit.o
+ .debug_macro   0x00003e66      0x1b9 ./src/sysinit.o
+ .debug_macro   0x0000401f      0x1da ./src/sysinit.o
+ .debug_macro   0x000041f9       0x40 ./src/sysinit.o
+ .debug_macro   0x00004239       0x1c ./src/sysinit.o
+ .debug_macro   0x00004255       0x2e ./src/sysinit.o
+ .debug_macro   0x00004283       0x2e ./src/sysinit.o
+ .debug_macro   0x000042b1       0x22 ./src/sysinit.o
+ .debug_macro   0x000042d3      0x201 ./src/sysinit.o
+ .debug_macro   0x000044d4       0xe0 ./src/sysinit.o
+ .debug_macro   0x000045b4      0x34c ./src/sysinit.o
+ .debug_macro   0x00004900       0xdc ./src/sysinit.o
+ .debug_macro   0x000049dc       0xc4 ./src/sysinit.o
+ .debug_macro   0x00004aa0       0x94 ./src/sysinit.o
+ .debug_macro   0x00004b34       0xb8 ./src/sysinit.o
+ .debug_macro   0x00004bec       0x4c ./src/sysinit.o
+ .debug_macro   0x00004c38       0x16 ./src/sysinit.o
+ .debug_macro   0x00004c4e      0x328 ./src/sysinit.o
+ .debug_macro   0x00004f76       0x3a ./src/sysinit.o
+ .debug_macro   0x00004fb0       0xd0 ./src/sysinit.o
+ .debug_macro   0x00005080       0x18 ./src/sysinit.o
+ .debug_macro   0x00005098       0x22 ./src/sysinit.o
+ .debug_macro   0x000050ba       0x40 ./src/sysinit.o
+ .debug_macro   0x000050fa       0xdd ./src/timers.o
+ .debug_macro   0x000051d7       0xe3 ./src/vibrator.o
+ .debug_macro   0x000052ba       0xe9 ./src/zones.o
+ .debug_macro   0x000053a3       0xc0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00005463      0xa66 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00005ec9      0x2da C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x000061a3      0x2e0 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
-.debug_line     0x00000000     0x2c45
- .debug_line    0x00000000       0xf8 ./src/cr_startup_lpc43xx.o
- .debug_line    0x000000f8      0x1eb ./src/dac.o
- .debug_line    0x000002e3      0x247 ./src/distance_sensor.o
- .debug_line    0x0000052a       0xdf ./src/gpio_set.o
- .debug_line    0x00000609      0x106 ./src/interruptions.o
- .debug_line    0x0000070f      0x21f ./src/leds_setup.o
- .debug_line    0x0000092e      0x2a6 ./src/main.o
- .debug_line    0x00000bd4       0xd2 ./src/scu_set.o
- .debug_line    0x00000ca6      0x5e3 ./src/sysinit.o
- .debug_line    0x00001289      0x2ad ./src/timers.o
- .debug_line    0x00001536      0x209 ./src/vibrator.o
- .debug_line    0x0000173f      0x203 ./src/zones.o
- .debug_line    0x00001942      0xa4d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_line    0x0000238f      0x1fa C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_line    0x00002589      0x6bc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+.debug_line     0x00000000     0x2d99
+ .debug_line    0x00000000      0x219 ./src/PWM.o
+ .debug_line    0x00000219       0xf8 ./src/cr_startup_lpc43xx.o
+ .debug_line    0x00000311      0x168 ./src/dac.o
+ .debug_line    0x00000479      0x239 ./src/distance_sensor.o
+ .debug_line    0x000006b2       0xd7 ./src/gpio_set.o
+ .debug_line    0x00000789       0xfe ./src/interruptions.o
+ .debug_line    0x00000887      0x217 ./src/leds_setup.o
+ .debug_line    0x00000a9e      0x2b0 ./src/main.o
+ .debug_line    0x00000d4e       0xca ./src/scu_set.o
+ .debug_line    0x00000e18      0x5e3 ./src/sysinit.o
+ .debug_line    0x000013fb      0x2a1 ./src/timers.o
+ .debug_line    0x0000169c      0x1ff ./src/vibrator.o
+ .debug_line    0x0000189b      0x1fb ./src/zones.o
+ .debug_line    0x00001a96      0x1fa C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_line    0x00001c90      0x6bc C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_line    0x0000234c      0xa4d C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
-.debug_str      0x00000000    0x181fc
- .debug_str     0x00000000     0x2f46 ./src/cr_startup_lpc43xx.o
+.debug_str      0x00000000    0x1813b
+ .debug_str     0x00000000     0x3770 ./src/PWM.o
+                               0x389f (size before relaxing)
+ .debug_str     0x00003770      0x1f2 ./src/cr_startup_lpc43xx.o
+                               0x2f56 (size before relaxing)
+ .debug_str     0x00003962      0x107 ./src/dac.o
+                               0x3568 (size before relaxing)
+ .debug_str     0x00003a69       0x99 ./src/distance_sensor.o
+                               0x38e2 (size before relaxing)
+ .debug_str     0x00003b02       0x78 ./src/gpio_set.o
+                               0x2f18 (size before relaxing)
+ .debug_str     0x00003b7a      0x41d ./src/interruptions.o
+                               0x3364 (size before relaxing)
+ .debug_str     0x00003f97       0x79 ./src/leds_setup.o
+                               0x2fb5 (size before relaxing)
+ .debug_str     0x00004010       0xcc ./src/main.o
+                               0x3ce0 (size before relaxing)
+ .debug_str     0x000040dc       0x61 ./src/scu_set.o
                                0x2f5e (size before relaxing)
- .debug_str     0x00002f46      0x8cc ./src/dac.o
-                               0x36fd (size before relaxing)
- .debug_str     0x00003812      0x3c4 ./src/distance_sensor.o
-                               0x3907 (size before relaxing)
- .debug_str     0x00003bd6       0x78 ./src/gpio_set.o
-                               0x2f20 (size before relaxing)
- .debug_str     0x00003c4e      0x41d ./src/interruptions.o
-                               0x336c (size before relaxing)
- .debug_str     0x0000406b       0x79 ./src/leds_setup.o
-                               0x2fbd (size before relaxing)
- .debug_str     0x000040e4       0xdc ./src/main.o
-                               0x3d0b (size before relaxing)
- .debug_str     0x000041c0       0x61 ./src/scu_set.o
-                               0x2f66 (size before relaxing)
- .debug_str     0x00004221    0x133c5 ./src/sysinit.o
-                              0x162bb (size before relaxing)
- .debug_str     0x000175e6       0xd5 ./src/timers.o
-                               0x391e (size before relaxing)
- .debug_str     0x000176bb       0x38 ./src/vibrator.o
-                               0x387e (size before relaxing)
- .debug_str     0x000176f3        0xf ./src/zones.o
-                               0x3886 (size before relaxing)
- .debug_str     0x00017702      0x95e C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                              0x16afb (size before relaxing)
- .debug_str     0x00018060       0xb5 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_str     0x0000413d    0x133dd ./src/sysinit.o
+                              0x162b3 (size before relaxing)
+ .debug_str     0x0001751a       0xd0 ./src/timers.o
+                               0x3903 (size before relaxing)
+ .debug_str     0x000175ea       0x38 ./src/vibrator.o
+                               0x3863 (size before relaxing)
+ .debug_str     0x00017622       0x1f ./src/zones.o
+                               0x3897 (size before relaxing)
+ .debug_str     0x00017641      0x1f3 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
                                0xa0d1 (size before relaxing)
- .debug_str     0x00018115       0xe7 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_str     0x00017834      0x2ed C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
                               0x1655b (size before relaxing)
+ .debug_str     0x00017b21      0x61a C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              0x16afb (size before relaxing)
 
 .comment        0x00000000       0x7e
- .comment       0x00000000       0x7e ./src/cr_startup_lpc43xx.o
+ .comment       0x00000000       0x7e ./src/PWM.o
                                  0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./src/cr_startup_lpc43xx.o
  .comment       0x0000007e       0x7f ./src/dac.o
  .comment       0x0000007e       0x7f ./src/distance_sensor.o
  .comment       0x0000007e       0x7f ./src/gpio_set.o
@@ -1762,67 +1362,70 @@ OUTPUT(Final_D2_LPCOpen.axf elf32-littlearm)
  .comment       0x0000007e       0x7f ./src/timers.o
  .comment       0x0000007e       0x7f ./src/vibrator.o
  .comment       0x0000007e       0x7f ./src/zones.o
- .comment       0x0000007e       0x7f C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .comment       0x0000007e       0x7f C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .comment       0x0000007e       0x7f C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .comment       0x0000007e       0x7f C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .comment       0x0000007e       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
  .comment       0x0000007e       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
 
 .ARM.attributes
                 0x00000000       0x35
  .ARM.attributes
-                0x00000000       0x37 ./src/cr_startup_lpc43xx.o
+                0x00000000       0x37 ./src/PWM.o
  .ARM.attributes
-                0x00000037       0x37 ./src/dac.o
+                0x00000037       0x37 ./src/cr_startup_lpc43xx.o
  .ARM.attributes
-                0x0000006e       0x37 ./src/distance_sensor.o
+                0x0000006e       0x37 ./src/dac.o
  .ARM.attributes
-                0x000000a5       0x37 ./src/gpio_set.o
+                0x000000a5       0x37 ./src/distance_sensor.o
  .ARM.attributes
-                0x000000dc       0x37 ./src/interruptions.o
+                0x000000dc       0x37 ./src/gpio_set.o
  .ARM.attributes
-                0x00000113       0x37 ./src/leds_setup.o
+                0x00000113       0x37 ./src/interruptions.o
  .ARM.attributes
-                0x0000014a       0x37 ./src/main.o
+                0x0000014a       0x37 ./src/leds_setup.o
  .ARM.attributes
-                0x00000181       0x37 ./src/scu_set.o
+                0x00000181       0x37 ./src/main.o
  .ARM.attributes
-                0x000001b8       0x37 ./src/sysinit.o
+                0x000001b8       0x37 ./src/scu_set.o
  .ARM.attributes
-                0x000001ef       0x37 ./src/timers.o
+                0x000001ef       0x37 ./src/sysinit.o
  .ARM.attributes
-                0x00000226       0x37 ./src/vibrator.o
+                0x00000226       0x37 ./src/timers.o
  .ARM.attributes
-                0x0000025d       0x37 ./src/zones.o
+                0x0000025d       0x37 ./src/vibrator.o
  .ARM.attributes
-                0x00000294       0x37 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x00000294       0x37 ./src/zones.o
  .ARM.attributes
                 0x000002cb       0x37 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
  .ARM.attributes
                 0x00000302       0x37 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
  .ARM.attributes
-                0x00000339       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
+                0x00000339       0x37 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
  .ARM.attributes
-                0x00000370       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
+                0x00000370       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
  .ARM.attributes
-                0x000003a7       0x25 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
+                0x000003a7       0x37 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000003de       0x25 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 
-.debug_frame    0x00000000      0xfcc
- .debug_frame   0x00000000      0x170 ./src/cr_startup_lpc43xx.o
- .debug_frame   0x00000170       0xf4 ./src/dac.o
- .debug_frame   0x00000264       0x9c ./src/distance_sensor.o
- .debug_frame   0x00000300       0xb0 ./src/gpio_set.o
- .debug_frame   0x000003b0       0xd8 ./src/interruptions.o
- .debug_frame   0x00000488       0xf4 ./src/leds_setup.o
- .debug_frame   0x0000057c       0xf8 ./src/main.o
- .debug_frame   0x00000674       0xb0 ./src/scu_set.o
- .debug_frame   0x00000724       0x34 ./src/sysinit.o
- .debug_frame   0x00000758      0x15c ./src/timers.o
- .debug_frame   0x000008b4       0x50 ./src/vibrator.o
- .debug_frame   0x00000904       0x34 ./src/zones.o
- .debug_frame   0x00000938      0x568 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
- .debug_frame   0x00000ea0       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
- .debug_frame   0x00000ed8       0xf4 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+.debug_frame    0x00000000      0xf84
+ .debug_frame   0x00000000       0x34 ./src/PWM.o
+ .debug_frame   0x00000034      0x170 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x000001a4       0x78 ./src/dac.o
+ .debug_frame   0x0000021c       0x9c ./src/distance_sensor.o
+ .debug_frame   0x000002b8       0xb0 ./src/gpio_set.o
+ .debug_frame   0x00000368       0xd8 ./src/interruptions.o
+ .debug_frame   0x00000440       0xf4 ./src/leds_setup.o
+ .debug_frame   0x00000534       0xf8 ./src/main.o
+ .debug_frame   0x0000062c       0xb0 ./src/scu_set.o
+ .debug_frame   0x000006dc       0x34 ./src/sysinit.o
+ .debug_frame   0x00000710      0x15c ./src/timers.o
+ .debug_frame   0x0000086c       0x50 ./src/vibrator.o
+ .debug_frame   0x000008bc       0x34 ./src/zones.o
+ .debug_frame   0x000008f0       0x38 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_frame   0x00000928       0xf4 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_frame   0x00000a1c      0x568 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 
 Cross Reference Table
 
@@ -1839,7 +1442,6 @@ Chip_Clock_CalcMainPLLValue                       C:\Users\manci\Documents\MCUXp
                                                   C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
 Chip_Clock_ClearPowerDown                         C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_Disable                                C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                                                  ./src/uart_18xx_43xx.o
 Chip_Clock_DisableBaseClock                       C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_DisableCrystal                         C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_DisablePLL                             C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
@@ -1848,7 +1450,6 @@ Chip_Clock_EnableBaseClock                        C:\Users\manci\Documents\MCUXp
 Chip_Clock_EnableCrystal                          C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
                                                   C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
 Chip_Clock_EnableOpts                             C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                                                  ./src/uart_18xx_43xx.o
 Chip_Clock_EnablePLL                              C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_GetBaseClock                           C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_GetBaseClockOpts                       C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
@@ -1860,7 +1461,6 @@ Chip_Clock_GetEMCRate                             C:\Users\manci\Documents\MCUXp
 Chip_Clock_GetMainPLLHz                           C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_GetPLLStatus                           C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_GetRate                                C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-                                                  ./src/uart_18xx_43xx.o
 Chip_Clock_IsBaseClockEnabled                     C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_RTCEnable                              C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 Chip_Clock_SetBaseClock                           C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
@@ -1875,22 +1475,6 @@ Chip_SetupIrcClocking                             C:\Users\manci\Documents\MCUXp
 Chip_SetupXtalClocking                            C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
 Chip_SystemInit                                   C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
                                                   ./src/sysinit.o
-Chip_UART_ABCmd                                   ./src/uart_18xx_43xx.o
-Chip_UART_CheckBusy                               ./src/uart_18xx_43xx.o
-Chip_UART_DeInit                                  ./src/uart_18xx_43xx.o
-Chip_UART_GetABEOStatus                           ./src/uart_18xx_43xx.o
-Chip_UART_IRQRBHandler                            ./src/uart_18xx_43xx.o
-Chip_UART_Init                                    ./src/uart_18xx_43xx.o
-Chip_UART_RXIntHandlerRB                          ./src/uart_18xx_43xx.o
-Chip_UART_Read                                    ./src/uart_18xx_43xx.o
-Chip_UART_ReadBlocking                            ./src/uart_18xx_43xx.o
-Chip_UART_ReadRB                                  ./src/uart_18xx_43xx.o
-Chip_UART_Send                                    ./src/uart_18xx_43xx.o
-Chip_UART_SendBlocking                            ./src/uart_18xx_43xx.o
-Chip_UART_SendRB                                  ./src/uart_18xx_43xx.o
-Chip_UART_SetBaud                                 ./src/uart_18xx_43xx.o
-Chip_UART_SetBaudFDR                              ./src/uart_18xx_43xx.o
-Chip_UART_TXIntHandlerRB                          ./src/uart_18xx_43xx.o
 Clock_enable                                      ./src/timers.o
 DAC_IRQHandler                                    ./src/cr_startup_lpc43xx.o
 DAC_init                                          ./src/main.o
@@ -1903,7 +1487,6 @@ EVRT_IRQHandler                                   ./src/cr_startup_lpc43xx.o
 Enable_DAC                                        ./src/dac.o
                                                   ./src/main.o
 Enable_DMA                                        ./src/dac.o
-Enable_ENAIO                                      ./src/dac.o
 Enable_FallingEdge                                ./src/interruptions.o
                                                   ./src/distance_sensor.o
 Enable_NVIC                                       ./src/interruptions.o
@@ -1932,12 +1515,14 @@ GPIO_SetPin                                       ./src/gpio_set.o
                                                   ./src/main.o
                                                   ./src/leds_setup.o
                                                   ./src/distance_sensor.o
+                                                  ./src/PWM.o
 GPIO_SetPinDIR                                    ./src/gpio_set.o
                                                   ./src/tec_setup.o
                                                   ./src/main.o
                                                   ./src/leds_setup.o
 GPIO_TogglePin                                    ./src/gpio_set.o
                                                   ./src/leds_setup.o
+                                                  ./src/PWM.o
 GPIO_init                                         ./src/main.o
 HardFault_Handler                                 ./src/cr_startup_lpc43xx.o
 I2C0_IRQHandler                                   ./src/cr_startup_lpc43xx.o
@@ -1950,13 +1535,13 @@ LED_ALL                                           ./src/leds_setup.o
                                                   ./src/main.o
 LED_ALL_OFF                                       ./src/leds_setup.o
 LED_ALL_ON                                        ./src/leds_setup.o
-                                                  ./src/main.o
 LED_cfg                                           ./src/leds_setup.o
 LED_high                                          ./src/leds_setup.o
                                                   ./src/zones.o
 LED_low                                           ./src/leds_setup.o
                                                   ./src/zones.o
 LED_toggle                                        ./src/leds_setup.o
+                                                  ./src/main.o
 M0APP_IRQHandler                                  ./src/cr_startup_lpc43xx.o
 M0SUB_IRQHandler                                  ./src/cr_startup_lpc43xx.o
 MCPWM_IRQHandler                                  ./src/cr_startup_lpc43xx.o
@@ -1966,24 +1551,16 @@ NVIC_init                                         ./src/main.o
 OscRateIn                                         ./src/sysinit.o
                                                   C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
 PERIPHERAL_init                                   ./src/main.o
+PWM_pulse                                         ./src/PWM.o
+                                                  ./src/zones.o
 PendSV_Handler                                    ./src/cr_startup_lpc43xx.o
 QEI_IRQHandler                                    ./src/cr_startup_lpc43xx.o
 RIT_IRQHandler                                    ./src/cr_startup_lpc43xx.o
 RTC_IRQHandler                                    ./src/cr_startup_lpc43xx.o
 ResetISR                                          ./src/cr_startup_lpc43xx.o
-RingBuffer_Init                                   C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
-RingBuffer_Insert                                 C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
-                                                  ./src/uart_18xx_43xx.o
-RingBuffer_InsertMult                             C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
-                                                  ./src/uart_18xx_43xx.o
-RingBuffer_Pop                                    C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
-                                                  ./src/uart_18xx_43xx.o
-RingBuffer_PopMult                                C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
-                                                  ./src/uart_18xx_43xx.o
 SAMPLES_NUM                                       ./src/dac.o
 SCT_IRQHandler                                    ./src/cr_startup_lpc43xx.o
 SCU_DisableGlitchFilter                           ./src/scu_set.o
-                                                  ./src/main.o
 SCU_EnableBuffer                                  ./src/scu_set.o
                                                   ./src/main.o
 SCU_SetEZI                                        ./src/tec_setup.o
@@ -2040,75 +1617,12 @@ Values_DAC                                        ./src/dac.o
                                                   ./src/vibrator.o
                                                   ./src/main.o
 WDT_IRQHandler                                    ./src/cr_startup_lpc43xx.o
-__aeabi_cdcmpeq                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_cdcmple                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_cdrcmple                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_cfcmpeq                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_cfcmple                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_cfrcmple                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_d2f                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_d2iz                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                                                  ./src/dac.o
-__aeabi_d2lz                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_d2uiz                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_d2ulz                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_dadd                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                                                  ./src/dac.o
-__aeabi_dcmpeq                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_dcmpge                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-__aeabi_dcmpgt                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_dcmple                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_dcmplt                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
-__aeabi_dcmpun                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_ddiv                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                                                  ./src/dac.o
-__aeabi_dmul                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                                                  ./src/dac.o
-__aeabi_dneg                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_drsub                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_dsub                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-__aeabi_f2d                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-                                                  ./src/dac.o
-__aeabi_f2iz                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_f2lz                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_f2uiz                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_f2ulz                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fadd                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fcmpeq                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fcmpge                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fcmpgt                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fcmple                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fcmplt                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fcmpun                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fdiv                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fmul                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fneg                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_frsub                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_fsub                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_i2d                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                                                  ./src/dac.o
-__aeabi_i2f                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_idiv0                                     c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_idiv0.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
-__aeabi_l2d                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_l2f                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_ldivmod                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
 __aeabi_lowlevel_memset                           c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
                                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
 __aeabi_memclr                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memclr4                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memclr8                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memcpy                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
 __aeabi_memcpy4                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memcpy8                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memmove                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
@@ -2117,63 +1631,34 @@ __aeabi_memmove8                                  c:/nxp/mcuxpressoide_10.2.0_75
 __aeabi_memset                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memset4                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
 __aeabi_memset8                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(memcpy.o)
-__aeabi_ui2d                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_ui2f                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_ul2d                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__aeabi_ul2f                                      c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__aeabi_uldivmod                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
-                                                  ./src/uart_18xx_43xx.o
-__bhs_ldivmod1                                    c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(division_64.o)
-__bhs_ui2d                                        c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__bhs_ui2f                                        c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
-__bhs_ul2d                                        c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(double.o)
-__bhs_ul2f                                        c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/softfp\libcr_eabihelpers.a(float.o)
 __bss_section_table_end                           ./src/cr_startup_lpc43xx.o
 __data_section_table                              ./src/cr_startup_lpc43xx.o
 __data_section_table_end                          ./src/cr_startup_lpc43xx.o
-__huge_val                                        c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-__huge_vall                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_hugeval.o)
 __main                                            c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
                                                   ./src/cr_startup_lpc43xx.o
 __valid_user_code_checksum                        ./src/cr_startup_lpc43xx.o
 __weak_main                                       c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
-_sincos                                           c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
 _vStackTop                                        ./src/cr_startup_lpc43xx.o
 bss_init                                          ./src/cr_startup_lpc43xx.o
-cfg_DAC                                           ./src/dac.o
-cfg_DMA                                           ./src/dac.o
 data_init                                         ./src/cr_startup_lpc43xx.o
 delay_us                                          ./src/timers.o
+                                                  ./src/zones.o
                                                   ./src/main.o
                                                   ./src/distance_sensor.o
+                                                  ./src/PWM.o
 distance_cm                                       ./src/distance_sensor.o
 distance_sensor_listen_echo                       ./src/distance_sensor.o
                                                   ./src/main.o
 distance_sensor_trigger                           ./src/distance_sensor.o
                                                   ./src/main.o
-errno                                             c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(errno.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-fabs                                              c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(fabs.o)
-                                                  c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(_sincos.o)
-flag_T1                                           ./src/dac.o
-flag_T2                                           ./src/dac.o
-flag_T3                                           ./src/dac.o
-flag_T4                                           ./src/dac.o
 fpuInit                                           C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
                                                   ./src/sysinit.o
 g_pfnVectors                                      ./src/cr_startup_lpc43xx.o
                                                   ./src/sysinit.o
 main                                              ./src/main.o
                                                   c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(__weak__main.o)
-memcpy                                            c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memcpy.o)
-                                                  C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(ring_buffer.o)
 memset                                            c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(memset.o)
                                                   C:\Users\manci\Documents\MCUXpressoIDE_10.2.0_759\workspace\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
-signal_fill                                       ./src/dac.o
-sin                                               c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/softfp\libcr_c.a(sin.o)
-                                                  ./src/dac.o
 toggle                                            ./src/leds_setup.o
 vibrator_OFF                                      ./src/vibrator.o
                                                   ./src/main.o

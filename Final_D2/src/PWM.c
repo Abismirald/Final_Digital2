@@ -10,9 +10,10 @@
  * DC=37% y para 1V necesito 9% redondeo a 10%
  */
 
-void PWM_pulse(unsigned int T /*us*/, unsigned int voltage){
+void PWM_pulse(unsigned int T /*us*/, unsigned int voltage,unsigned int total_time){
 	float Ton=0; //creo que tiene que ser float
 	float Toff=0;
+	unsigned int var=0;
 
 	switch(voltage){
 	case(3):
@@ -29,45 +30,50 @@ void PWM_pulse(unsigned int T /*us*/, unsigned int voltage){
 		break;
 	}
 
-	while(1){
-	GPIO_SetPin(GPIO, PWM_PORT, PWM_PIN, LOW);
-	GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
-	delay_us(TIMER1, Ton);
-	GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
-	delay_us(TIMER1, Toff);
-	}
-
-}
-
-void PWM_time(unsigned int freq, unsigned int total_time){
-
-	unsigned int var=0;
-	unsigned int T = (1/1000000)*freq;
-
 	if(T <= MAX_PWM_TIME){
 
 		for (var = 0; var < total_time/T; ++var) {
-			PWM_pulse(T,2);
+
+			GPIO_SetPin(GPIO, PWM_PORT, PWM_PIN, LOW);
+			GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
+			delay_us(TIMER1, Ton);
+			GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
+			delay_us(TIMER1, Toff);
+
 		}
 
 	}
-
-
 }
 
-void PWM_variable(unsigned int freq /*Hz*/,
-		unsigned int percentaje_up,  unsigned int percentaje_down){
-
-	unsigned int T = (1/freq)*1000000;
-
-	if(percentaje_up<=1 && percentaje_down <=1){
-
-		GPIO_SetPin(GPIO,PWM_PORT, PWM_PIN,HIGH);
-		//delay_us(T*percentaje_up);
-		GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
-		//delay_us(T*percentaje_up);
-
-	}
-
-
-}
+//void PWM_time(unsigned int freq, unsigned int total_time){
+//
+//	unsigned int var=0;
+//	unsigned int T = (1/1000000)*freq;
+//
+//	if(T <= MAX_PWM_TIME){
+//
+//		for (var = 0; var < total_time/T; ++var) {
+//			PWM_pulse(T,2);
+//		}
+//
+//	}
+//
+//
+//}
+//
+//void PWM_variable(unsigned int freq /*Hz*/,
+//		unsigned int percentaje_up,  unsigned int percentaje_down){
+//
+//	unsigned int T = (1/freq)*1000000;
+//
+//	if(percentaje_up<=1 && percentaje_down <=1){
+//
+//		GPIO_SetPin(GPIO,PWM_PORT, PWM_PIN,HIGH);
+//		//delay_us(T*percentaje_up);
+//		GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
+//		//delay_us(T*percentaje_up);
+//
+//	}
+//
+//
+//}

@@ -13,9 +13,9 @@
 #include "timers.h"
 #include "main.h"
 
-void PWM_pulse(unsigned int T /*us*/,unsigned int voltage);
-void PWM_time(unsigned int freq, unsigned int total_time);
-void PWM_variable(unsigned int freq /*Hz*/,
-		unsigned int percentaje_up,  unsigned int percentaje_down);
+void PWM_pulse(unsigned int T /*us*/,unsigned int voltage,unsigned int total_time);
+//void PWM_time(unsigned int freq, unsigned int total_time);
+//void PWM_variable(unsigned int freq /*Hz*/,
+//		unsigned int percentaje_up,  unsigned int percentaje_down);
 
 #endif /* PWM_H_ */

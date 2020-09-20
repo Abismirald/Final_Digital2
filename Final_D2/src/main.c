@@ -22,7 +22,7 @@
 #define	SCU_ECHO_PIN 5
 #define SCU_PWM_GROUP	6
 #define SCU_PWM_PIN		4
-#define DELAY_TRIGGER 7 //delay between samples
+
 
 #define Z1		80
 #define Z2		150
@@ -136,9 +136,6 @@ int main(void) {
     		zone(ZONE_OUT);
     		vibrator_OFF();
     	}
-
-    	/* delay between sensing */
-    	delay_us(TIMER0, DELAY_TRIGGER);
 
     }
     return 0;
