@@ -20,8 +20,8 @@ void PWM_pulse(unsigned int T /*us*/, unsigned int voltage){
 		Toff=0;
 		break;
 	case(2):
-		Ton=T*0.3;
-		Toff=T*(0.1); //0.4 1.4V - 0.5 1.7V
+		Ton=T*0.6;
+		Toff=T*0.4; //0.4 1.4V - 0.5 1.7V
 		break;
 	case(1):
 		Ton=T*0.1;
