@@ -3,10 +3,11 @@
 
 void Enable_NVIC(interrupt_t interrnum){
 	/*
-	Esta funcion habilita la interrupcion del core de ARM, en el caso de NXP, solo tenemos interrupciones en los registros 
-	ISER 0 Y 1. La interrupcion se la pasamos con un enum que tiene los numeros de interrupciones de NXP 
+	Esta funcion habilita la interrupcion del core de ARM, en el caso de NXP,
+	solo tenemos interrupciones en los registros
+	ISER 0 Y 1. La interrupcion se la pasamos
+	con un enum que tiene los numeros de interrupciones de NXP
 	*/
-
 	unsigned char isernum;
 
 	if(0<=interrnum && interrnum<=31){
@@ -27,8 +28,9 @@ void Enable_NVIC(interrupt_t interrnum){
 void SelectEdge_PIN_INT(int ISELnum){
 	if(ISELnum <=7){
 		(PIN_INT->ISEL) &= ~(0x01<<ISELnum);
-		//si quiero un 0 en alguna posicion tengo que poner un 1 en una pos, negarlo y AND
-		//pues 0 es edge sensivility
+		/*si quiero un 0 en alguna posicion tengo
+		que poner un 1 en una pos, negarlo y AND
+		pues 0 es edge sensivility*/
 	}
 }
 void Enable_FallingEdge(int SIENFnum){
@@ -39,11 +41,9 @@ void Enable_FallingEdge(int SIENFnum){
 
 void Enable_RisingEdge(int SIENRnum){
 	if(SIENRnum <=7){
-		(PIN_INT->SIENR)|= (0x01<<SIENRnum); 
+		(PIN_INT->SIENR)|= (0x01<<SIENRnum);
 	}
 }
-
-
 
 void Select_GPIO_interrupt(unsigned char port, unsigned char pin, unsigned char interrnum){
 	int desp=(interrnum & 3) << 3;
