@@ -1,0 +1,2 @@
+PWM.c:17:6:PWM_pulse	32	static
+PWM.c:46:6:PWM_pulse_off	8	static

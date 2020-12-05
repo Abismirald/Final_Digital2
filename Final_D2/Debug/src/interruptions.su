@@ -1,4 +1,5 @@
 interruptions.c:4:6:Enable_NVIC	24	static
 interruptions.c:27:6:SelectEdge_PIN_INT	16	static
-interruptions.c:34:6:Enable_PIN_INT	16	static
-interruptions.c:41:6:Select_GPIO_interrupt	24	static
+interruptions.c:34:6:Enable_FallingEdge	16	static
+interruptions.c:40:6:Enable_RisingEdge	16	static
+interruptions.c:48:6:Select_GPIO_interrupt	24	static

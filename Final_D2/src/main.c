@@ -22,11 +22,11 @@
 #define	SCU_ECHO_PIN 5
 #define SCU_PWM_GROUP	6
 #define SCU_PWM_PIN		4
+#define DELAY_TRIGGER 7 //delay between samples
 
-
-#define Z1		80
-#define Z2		150
-#define Z3		250
+#define Z1		10//80
+#define Z2		20//150
+#define Z3		30//250
 
 bool GPIO_FLAG=0;
 
@@ -34,7 +34,7 @@ bool GPIO_FLAG=0;
 status_t PERIPHERAL_init(){
 
 	LED_ALL();
-	DAC_init();
+	//DAC_init();
 	SCU_init();
 	GPIO_init();
 	TIMERS_init();
@@ -43,10 +43,10 @@ status_t PERIPHERAL_init(){
 	return OK_ZONE;
 }
 
-void DAC_init(){
-	Enable_DAC();
-	Values_DAC(0);
-}
+//void DAC_init(){
+//	Enable_DAC();
+//	Values_DAC(0);
+//}
 
 void SCU_init(){
 	SCU_SetPin(SCU, SCU_TRIGGER_GROUP, SCU_TRIGGER_PIN, 0);
@@ -122,20 +122,27 @@ int main(void) {
     	/* The distance determinates the zone of action */
     	if(0<distance && distance<Z1){
     		zone(ZONE_1);
-    		vibrator_ON(ZONE_1);
+    		//PWM_pulse(100, 1);
+    		//vibrator_ON(ZONE_1);
     	}
     	if(Z1<distance && distance<Z2){
     		zone(ZONE_2);
-    		vibrator_ON(ZONE_2);
+    		//PWM_pulse(100, 2);
+    		//vibrator_ON(ZONE_2);
     	}
     	if(Z2<distance && distance<Z3){
     		zone(ZONE_3);
-    		vibrator_ON(ZONE_3);
+    		//PWM_pulse(100, 3);
+    		//vibrator_ON(ZONE_3);
     	}
     	if(Z3<distance){
     		zone(ZONE_OUT);
-    		vibrator_OFF();
+    		//PWM_pulse_off();
+    		//vibrator_OFF();
     	}
+
+    	/* delay between sensing */
+    	delay_us(TIMER0, DELAY_TRIGGER);
 
     }
     return 0;

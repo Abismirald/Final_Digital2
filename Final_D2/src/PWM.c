@@ -2,7 +2,9 @@
 
 #define PWM_PORT 3
 #define PWM_PIN	3
-#define MAX_PWM_TIME 10000000 //10 *10e(6) us = 10 segs
+#define DELAY_1SEG 1000000
+#define PWM_BLOCKING_TIME_MS 100 //tiempo de bloqueo de la funcion de PWM_pulse en milisegundos
+//#define MAX_PWM_TIME 10000000 //10 *10e(6) us = 10 segs
 
 //DutyCicle=PulseWidth/Period
 /*
@@ -10,39 +12,41 @@
  * DC=37% y para 1V necesito 9% redondeo a 10%
  */
 
-void PWM_pulse(unsigned int T /*us*/, unsigned int voltage,unsigned int total_time){
-	float Ton=0; //creo que tiene que ser float
+/* frec 10kHz => 100us*/
+
+void PWM_pulse(unsigned int T /*us*/, unsigned int voltage){
+	float Ton=0;
 	float Toff=0;
-	unsigned int var=0;
+	int i;
 
 	switch(voltage){
-	case(3):
+	case(1):
 		Ton=T;
 		Toff=0;
 		break;
 	case(2):
+		Ton=T*0.5;
+		Toff=T*0.5;
+		break;
+	case(3):
 		Ton=T*0.3;
-		Toff=T*(0.1); //0.4 1.4V - 0.5 1.7V
-		break;
-	case(1):
-		Ton=T*0.1;
-		Toff=T*(1-0.1);
+		Toff=T*0.7;
 		break;
 	}
 
-	if(T <= MAX_PWM_TIME){
-
-		for (var = 0; var < total_time/T; ++var) {
-
-			GPIO_SetPin(GPIO, PWM_PORT, PWM_PIN, LOW);
-			GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
-			delay_us(TIMER1, Ton);
-			GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
-			delay_us(TIMER1, Toff);
-
-		}
-
+	for(i=0;i<((1000/T)*(PWM_BLOCKING_TIME_MS));i++){
+	GPIO_SetPin(GPIO, PWM_PORT, PWM_PIN, LOW);
+	GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
+	delay_us(TIMER1, Ton);
+	GPIO_TogglePin(GPIO,PWM_PORT, PWM_PIN);
+	delay_us(TIMER1, Toff);
 	}
+
+}
+void PWM_pulse_off(){
+
+	GPIO_SetPin(GPIO, PWM_PORT, PWM_PIN, LOW);
+	delay_us(TIMER0, PWM_BLOCKING_TIME_MS*1000);
 }
 
 //void PWM_time(unsigned int freq, unsigned int total_time){

@@ -1,6 +1,3 @@
-dac.c:15:6:Enable_DAC	4	static
-dac.c:21:6:Enable_DMA	4	static
-dac.c:27:6:Values_DAC	24	static
-dac.c:38:6:cfg_DAC	16	static
-dac.c:46:6:cfg_DMA	40	static
-dac.c:97:6:signal_fill	56	dynamic
+dac.c:14:6:Enable_DAC	4	static
+dac.c:20:6:Enable_DMA	4	static
+dac.c:26:6:Values_DAC	24	static
