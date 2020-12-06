@@ -1,23 +1,17 @@
-/*
-Este .h tendrá un estructura que apunta directamente a GPIO_BASE y a SCU_BASE por lo tanto moviendome por los campos (que tendran
-el mismo tamaño o separación como estan en el micro) me voy a mover directamente por los registros en vez de tener que cargar
- y configurar los offsets.
-*/
 #ifndef _STRUCT_BASE_H_
 #define _STRUCT_BASE_H_
 
-#define SCU_BASE			0X40086000 //direccion base del registro
-#define SCU 				((SCU_T *) SCU_BASE) //Apunto la struct a la direccion de memoria base de los seteo de pines (creo)
-#define GPIO_PORT_BASE		0x400F4000 //direccion base del registro
-#define GPIO 				((GPIO_T *) GPIO_PORT_BASE) //Apunto la struct a la direccion de memoria base de los gpio
+#define SCU_BASE			0X40086000 
+#define SCU 				((SCU_T *) SCU_BASE) 
+#define GPIO_PORT_BASE		0x400F4000 
+#define GPIO 				((GPIO_T *) GPIO_PORT_BASE) 
 #define PIN_INT_BASE		0x40087000
 #define PIN_INT 			((PIN_INT_T *) PIN_INT_BASE)
 #define NVIC_BASE			0xE000E100
 #define NVIC 				((_NVIC_T *) NVIC_BASE)
 #define DAC_BASE			0x400E1000
 #define DAC 				((DAC_T *) DAC_BASE) 
-//por ejemplo si yo quiero usar el led 1 tengo que poner dentro del main (SCU->SFSP)[2][10] = 0x0 lo estoy declarando como gpio
-//y lo estoy poniendo todas los demas valores tambien en 0
+
 
 typedef struct {
 	unsigned int  SFSP[16][32];
