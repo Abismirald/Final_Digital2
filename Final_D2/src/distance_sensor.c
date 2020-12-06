@@ -24,7 +24,8 @@ uint32_t distance_sensor_listen_echo(){
 	TIMER_reset(TIMER0);
 	TIMER_enable(TIMER0);
 
-	while(TIMER_ReadCount(TIMER0) < MAX_ECHO_TIME){ // loopea hasta que timer llega al maximo sin recibir nada
+	while(TIMER_ReadCount(TIMER0) < MAX_ECHO_TIME){ 
+	// loopea hasta que timer llega al maximo sin recibir nada
 	//Waits echo rise edge
 
 		if(GPIO_FLAG==1){

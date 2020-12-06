@@ -89,7 +89,7 @@ void TIMER_reset(timer_t timer_number){
 }
 
 //set frequency on a timer.
-//The maths are: PPCLK * (PR+1) = P /* para mi aca es el +1 */
+//The maths are: PPCLK * (PR+1) = P 
 //Where: PCLK = 1/PCLK_MAX_FREQ , P = 1/frequency, PR = value of PR register
 
 //PR=(MAX_FREQ/frequency) -1
